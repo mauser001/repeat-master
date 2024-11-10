@@ -3,7 +3,7 @@ import { Quiz } from '../../models/quiz.type';
 import { Question } from '../../models/question.type';
 import { QuizService } from '../../service/quiz.service';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { switchMap, tap } from 'rxjs';
 import { NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
 import { MatStepperModule } from '@angular/material/stepper';
@@ -38,7 +38,8 @@ import { MatFabButton } from '@angular/material/button';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class QuizComponent {
-  #progressService: ProgressService
+  #progressService: ProgressService;
+  #router: Router;
   #results: Signal<Results>
 
   data: Signal<{
@@ -49,8 +50,9 @@ export class QuizComponent {
   answers = signal<Record<number, string[]>>({})
 
 
-  constructor(route: ActivatedRoute, quizService: QuizService, progressService: ProgressService) {
-    this.#progressService = progressService
+  constructor(route: ActivatedRoute, quizService: QuizService, progressService: ProgressService, router: Router) {
+    this.#progressService = progressService;
+    this.#router = router;
     this.data = toSignal(
       route.params.pipe(
         switchMap((params) => quizService.getQuiz(parseInt(params['id']))))
@@ -87,6 +89,7 @@ export class QuizComponent {
     }).map(([key]) => Number(key))
 
     this.#progressService.updateResult(quiz.id, union<number>(results[quiz.id], correctAnswers))
+    this.#router.navigateByUrl(`result/${quiz.id}`)
   }
 
   trackBy = (_index: number, question: Question) => question.id

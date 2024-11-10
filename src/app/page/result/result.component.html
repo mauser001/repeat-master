@@ -1,1 +1,42 @@
-<p>result works!</p>
+<div *ngIf="result$() as result; else noQuiz" class="result">
+    <div>
+        <h3 class="header {{result.state}}" [ngSwitch]="result.state">
+            <ng-content *ngSwitchCase="'complete'">
+                You answered all questions of correctly and completed this quest!
+            </ng-content>
+            <ng-content *ngSwitchCase="'partial'">
+                You answered some of the questions correctly, try again!
+            </ng-content>
+            <ng-content *ngSwitchCase="'wrong'">
+                You did not answer any question correctly, try harder!
+            </ng-content>
+        </h3>
+        <mat-card class="card" appearance="outlined" *ngFor="let question of result.questions; trackBy:trackBy">
+            <mat-card-title>
+                <mat-icon aria-hidden="false" *ngIf="result.completedIds.includes(question.id); else wrongIcon"
+                    class="icon complete" fontIcon="star"></mat-icon>
+                {{question.description}}: {{ question.text }}
+            </mat-card-title>
+            <mat-card-content>
+                Correct answer(s): {{question.correctAnswers.join(', ')}}
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div class="action-buttons">
+        <button class="button" mat-fab extended aria-label="Retry Quiz" (click)="retry()">
+            <mat-icon class="icon" fontIcon="autorenew" aria-label="retry quiz"></mat-icon>
+            Retry
+        </button>
+        <button class="button" [routerLink]="''" mat-fab extended aria-label="Home">
+            <mat-icon class="icon" fontIcon="home" aria-label="home"></mat-icon>
+            Home
+        </button>
+    </div>
+</div>
+
+<ng-template #noQuiz>
+    <h1>Quiz not found</h1>
+</ng-template>
+<ng-template #wrongIcon>
+    <mat-icon aria-hidden="false" class="icon wrong" fontIcon="do_not_disturb_on"></mat-icon>
+</ng-template>

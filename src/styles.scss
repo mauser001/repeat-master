@@ -8,6 +8,22 @@ body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: lightgrey;
 
     --padding: 20px;
+    --color-wrong: #ba1a1a;
+    --color-complete: #00ff00;
+    --color-partial: #ffff00;
+
+    .wrong {
+        color: var(--color-wrong);
+    }
+
+    .complete {
+        color: var(--color-complete);
+    }
+
+    .partial {
+        color: var(--color-partial);
+    }
 }

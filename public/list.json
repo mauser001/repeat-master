@@ -41,7 +41,7 @@
       "id": 2,
       "category": "placeholder-texts",
       "description": "Fill in the blanks",
-      "text": "The | is bigger then the |",
+      "text": "The _ is bigger then the _",
       "correctAnswers": ["elefant", "mouse"],
       "type": "placeholder",
       "wrongAnswers": ["pink", "drunken"],
