@@ -1,0 +1,52 @@
+{
+  "quizes": [
+    {
+      "id": 0,
+      "active": true,
+      "title": "Unit 3",
+      "category": "english",
+      "description": "Practice vocabulary and texts",
+      "questionIds": [0, 1, 2]
+    },
+    {
+      "id": 1,
+      "active": true,
+      "title": "Unit 3 short",
+      "category": "english",
+      "description": "Practice vocabulary",
+      "questionIds": [0, 1]
+    }
+  ],
+  "questions": [
+    {
+      "id": 0,
+      "category": "vocabulary",
+      "description": "Translate",
+      "text": "Tisch",
+      "correctAnswers": ["table"],
+      "type": "text",
+      "exactMatch": true
+    },
+    {
+      "id": 1,
+      "category": "vocabulary",
+      "description": "Translate",
+      "text": "Sessel",
+      "correctAnswers": ["chair"],
+      "type": "text",
+      "hint": true,
+      "exactMatch": true
+    },
+    {
+      "id": 2,
+      "category": "placeholder-texts",
+      "description": "Fill in the blanks",
+      "text": "The | is bigger then the |",
+      "correctAnswers": ["elefant", "mouse"],
+      "type": "placeholder",
+      "wrongAnswers": ["pink", "drunken"],
+      "hint": true,
+      "exactMatch": true
+    }
+  ]
+}

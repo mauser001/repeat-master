@@ -1,0 +1,1 @@
+export type Results = Record<number, number[]>

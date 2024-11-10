@@ -1,0 +1,42 @@
+<div class="quiz">
+    <div *ngIf="data() as data; else noData">
+        <div *ngIf="data.quiz as quiz; else noQuiz">
+            <h1>Quiz {{quiz.title}}</h1>
+            <mat-stepper>
+                <mat-step-header>header</mat-step-header>
+                <ng-content *ngFor="let question of openQuestions(); trackBy:trackBy">
+                    <mat-step>
+                        <mat-card class="card" appearance="outlined">
+                            <mat-card-title>{{ question.description }}</mat-card-title>
+                            <mat-card-content class="question" [ngSwitch]="question.type">
+                                <rep-question-text *ngSwitchCase="'text'" [question]="question"
+                                    (onAnswers)="updateAnswer($event)"></rep-question-text>
+                                <div *ngSwitchDefault>
+                                    No question edtior defined for type: {{question.type}}
+                                </div>
+                            </mat-card-content>
+                        </mat-card>
+
+                    </mat-step>
+
+                </ng-content>
+            </mat-stepper>
+            <div class="action-buttons">
+                <button mat-fab extended aria-label="Finish Quiz" (click)="finish()">
+                    <mat-icon fontIcon="exit_to_app" aria-label="finish quiz"></mat-icon>
+                    Finish Quiz
+                </button>
+                <button [routerLink]="''" mat-fab extended aria-label="Finish Quiz" (click)="finish()">
+                    <mat-icon fontIcon="block" aria-label="abort quiz"></mat-icon>
+                    Abort
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<ng-template #noData>
+    <h1>Quiz is loading</h1>
+</ng-template>
+<ng-template #noQuiz>
+    <h1>Quiz not found</h1>
+</ng-template>

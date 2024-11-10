@@ -1,0 +1,12 @@
+.overview {
+    padding: var(--padding);
+
+    .card {
+        padding: var(--padding);
+        margin-bottom: var(--padding);
+
+        .arrow {
+            float: right;
+        }
+    }
+}

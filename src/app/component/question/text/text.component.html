@@ -1,0 +1,6 @@
+<div class="question" *ngIf="question() as question">
+    <mat-form-field class="form-field">
+        <mat-label>{{question.text}}</mat-label>
+        <input matInput value="" (change)="onInputChange($event)">
+    </mat-form-field>
+</div>
