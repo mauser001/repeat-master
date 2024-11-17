@@ -5,8 +5,12 @@
         padding: var(--padding);
         margin-bottom: var(--padding);
 
-        .arrow {
-            float: right;
+        .description {
+            margin: var(--padding) 0;
+
+            .arrow {
+                float: right;
+            }
         }
     }
 }

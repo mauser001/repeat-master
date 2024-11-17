@@ -23,7 +23,31 @@ export class QuizService {
       return []
     }),
     shareReplay(1),
-    tap((data) => this.#progressService.getResults(data.quizes.map((q) => q.id)))
+    map((data) => ({
+      ...data,
+      quizes: data.quizes.map((quiz) => {
+        const questionIds: number[] = quiz.questionIds || []
+        quiz.questionIdsMap?.split(',').forEach(part => {
+          if (part.includes('-')) {
+            const split = part.split('-').map((v) => parseInt(v));
+            for (let i = split[0]; i <= split[1]; i++) {
+              questionIds.push(i);
+            }
+          } else {
+            questionIds.push(parseInt(part));
+          }
+        });
+
+        return {
+          ...quiz,
+          questionIds
+        }
+      })
+    })),
+    tap((data) => {
+      this.#progressService.getResults(data.quizes.map((q) => q.id));
+      this.#progressService.getCompletedCount(data.quizes.map((q) => q.id));
+    })
   )
 
   readonly quizes: Observable<Quiz[]> = this.#list$.pipe(
@@ -32,10 +56,8 @@ export class QuizService {
 
   readonly getQuiz = (id: number): Observable<{ quiz?: Quiz, questions: Question[] }> => this.#list$.pipe(
     map((list) => {
-      console.log('id', id, typeof id)
       const quiz = list.quizes.find((q) => q.id === id)
-      const questions = randomizeList(list.questions.filter((q) => quiz?.questionIds.includes(q.id)))
-      console.log('questions', questions)
+      const questions = randomizeList(list.questions.filter((q) => quiz?.questionIds?.includes(q.id)))
       return {
         quiz,
         questions

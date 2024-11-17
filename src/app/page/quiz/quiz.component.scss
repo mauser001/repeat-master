@@ -2,25 +2,43 @@
     padding: var(--padding);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: var(--padding);
 
     .card {
         padding: var(--padding);
+
+        .question {
+            margin: var(--padding) 0;
+        }
+
+        .hint {
+            padding-top: var(--padding);
+        }
+    }
+
+    .header {
+        padding: var(--padding) 0;
     }
 
     .action-buttons {
         display: flex;
+        flex-direction: column;
         gap: var(--padding);
-        justify-content: flex-end;
 
-        .button {
-            flex-direction: column;
-            align-items: center;
+        .row {
+            display: flex;
+            gap: var(--padding);
             justify-content: flex-end;
 
-            .icon {
-                margin: 0;
+            .button {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-width: 80px;
+
+                .icon {
+                    margin: 0;
+                }
             }
         }
     }

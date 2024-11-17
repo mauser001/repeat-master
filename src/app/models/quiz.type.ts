@@ -4,5 +4,6 @@ export type Quiz = {
     title: string;
     category: string;
     description?: string;
-    questionIds: number[];
+    questionIds?: number[];
+    questionIdsMap?: string;
 }

@@ -9,12 +9,30 @@
         text-align: center;
     }
 
+    .wrong {
+        border: solid 4px var(--color-wrong);
+    }
+
+    .complete {
+        border: solid 4px var(--color-complete);
+    }
+
+    .partial {
+        border: solid 4px var(--color-partial);
+    }
+
     .card {
         padding: var(--padding);
         gap: var(--padding);
 
         .icon {
             float: right;
+            border: none;
+            color: var(--color-complete);
+
+            &.wrong {
+                color: var(--color-wrong);
+            }
         }
     }
 

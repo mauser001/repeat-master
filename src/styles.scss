@@ -9,21 +9,19 @@ body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background-color: lightgrey;
+    background-image: url("assets/circle.png");
 
     --padding: 20px;
     --color-wrong: #ba1a1a;
     --color-complete: #00ff00;
     --color-partial: #ffff00;
+}
 
-    .wrong {
-        color: var(--color-wrong);
-    }
+h3 {
+    background: lightgrey;
+    padding: var(--padding);
+}
 
-    .complete {
-        color: var(--color-complete);
-    }
-
-    .partial {
-        color: var(--color-partial);
-    }
+.mat-horizontal-stepper-header-container {
+    display: none !important;
 }

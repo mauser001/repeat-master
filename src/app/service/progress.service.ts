@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-import { Results } from '../models/result.type';
+import { CompletedCount, Results } from '../models/result.type';
 
 @Injectable({
   providedIn: 'root'
@@ -8,10 +8,12 @@ import { Results } from '../models/result.type';
 export class ProgressService {
 
   #results$ = new BehaviorSubject<Results>({});
+  #completedCount$ = new BehaviorSubject<CompletedCount>({});
 
   constructor() { }
 
   results$ = this.#results$.asObservable();
+  completedCount$ = this.#completedCount$.asObservable();
 
   updateResult(quizId: number, correctQuestionIds: number[]) {
     localStorage.setItem(this.#getQuizKey(quizId), JSON.stringify(correctQuestionIds));
@@ -27,7 +29,24 @@ export class ProgressService {
     }, record))
   }
 
+  increaseCompletedCount(quizId: number) {
+    localStorage.setItem(this.#getCompletedCountKey(quizId), (this.#completedCount$.getValue()[quizId] + 1).toString());
+  }
+
+  getCompletedCount(quizIds: number[]) {
+    const record: CompletedCount = {};
+    this.#completedCount$.next(quizIds.reduce((total, quizId) => {
+      const count = localStorage.getItem(this.#getCompletedCountKey(quizId));
+      total[quizId] = count ? parseInt(count) : 0;
+      return total;
+    }, record))
+  }
+
   #getQuizKey(quizId: number) {
     return `quiz-result-${quizId}`;
+  }
+
+  #getCompletedCountKey(quizId: number) {
+    return `completed-count-${quizId}`;
   }
 }

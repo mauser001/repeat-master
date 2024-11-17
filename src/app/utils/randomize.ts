@@ -9,3 +9,7 @@ export function randomizeList<T>(list: T[]): T[] {
     }
     return newList;
 }
+
+export function randomizeText(text: string): string {
+    return randomizeList(text.split('')).join('');
+}

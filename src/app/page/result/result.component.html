@@ -11,14 +11,16 @@
                 You did not answer any question correctly, try harder!
             </ng-content>
         </h3>
-        <mat-card class="card" appearance="outlined" *ngFor="let question of result.questions; trackBy:trackBy">
+        <mat-card class="card" appearance="outlined" *ngFor="let question of result.questions; trackBy:trackBy"
+            [class.wrong]="!result.completedIds.includes(question.id)"
+            [class.complete]="result.completedIds.includes(question.id)">
             <mat-card-title>
                 <mat-icon aria-hidden="false" *ngIf="result.completedIds.includes(question.id); else wrongIcon"
                     class="icon complete" fontIcon="star"></mat-icon>
                 {{question.description}}: {{ question.text }}
             </mat-card-title>
             <mat-card-content>
-                Correct answer(s): {{question.correctAnswers.join(', ')}}
+                Correct answer(s): {{question.correctAnswers.split('|').join(', ')}}
             </mat-card-content>
         </mat-card>
     </div>
@@ -27,7 +29,7 @@
             <mat-icon class="icon" fontIcon="autorenew" aria-label="retry quiz"></mat-icon>
             Retry
         </button>
-        <button class="button" [routerLink]="''" mat-fab extended aria-label="Home">
+        <button class="button" mat-fab extended aria-label="Home" (click)="home()">
             <mat-icon class="icon" fontIcon="home" aria-label="home"></mat-icon>
             Home
         </button>

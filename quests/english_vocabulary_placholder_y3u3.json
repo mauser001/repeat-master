@@ -1,0 +1,402 @@
+[
+  {
+    "id": 33200,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Would you talk about a bad _?",
+    "correctAnswers": "experience",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33201,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We travelled _ the Rocky Mountains.",
+    "correctAnswers": "across",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33202,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "There was never _ at the beach, so we could gallop as much as we wanted.",
+    "correctAnswers": "anyone ",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33203,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "In the 17th century, London was a much smaller city. We really enjoyed the beautiful _.",
+    "correctAnswers": "countryside",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33204,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She made the right _.",
+    "correctAnswers": "decision",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33205,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Mary Kingsley isn't the only famous female _.",
+    "correctAnswers": "explorer",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33206,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They _ the land.",
+    "correctAnswers": "explored",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33207,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I bought some flowers at the _ yesterday.",
+    "correctAnswers": "market",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33208,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They wanted to _ back by sea.",
+    "correctAnswers": "sail",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33209,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The food on the plane had a terrible _.",
+    "correctAnswers": "smell",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33210,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Many _ come here by train.",
+    "correctAnswers": "travellers",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33211,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You'll get pretty _ here if you don't speak to anybody.",
+    "correctAnswers": "lonely",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33212,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ have a big and dangerous mouth.",
+    "correctAnswers": "Crocs",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33213,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Lady Diana's _ was a great shock.",
+    "correctAnswers": "death",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33214,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The fire was _ but became _.",
+    "correctAnswers": "weak|stronger",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33215,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "There is a nature park near Florida's _ _, Tallahassee.",
+    "correctAnswers": "capital|city",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33216,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We want to relax _ a _.",
+    "correctAnswers": "for|while",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33217,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We're really _ _ to the boat trip.",
+    "correctAnswers": "looking|forward",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33218,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Which of the trips would you _?",
+    "correctAnswers": "prefer",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33219,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You can see the beautiful _ from the mountain. After a rest, she flew back.",
+    "correctAnswers": "scenery",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33220,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She _ _ because she was alone.",
+    "correctAnswers": "was|afraid",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33221,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "When you climb a _, don't look down!",
+    "correctAnswers": "cliff",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33222,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The guides were _ climbers.",
+    "correctAnswers": "experienced",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33223,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ we had good weather",
+    "correctAnswers": "Fortunately",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33224,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "To go rock climbing you need the right _.",
+    "correctAnswers": "gear",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33225,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I soon _ _ with the people on the farm.",
+    "correctAnswers": "made|friends",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33226,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We had to walk up the _ _ first.",
+    "correctAnswers": "rock|face",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33227,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The _ of the mountains is stunning. Gradually we became better climbers.",
+    "correctAnswers": "view",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33228,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Our _ are very happy with our new machine.",
+    "correctAnswers": "customers",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33229,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Check-in is two hours before _.",
+    "correctAnswers": "departure",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33230,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The trip was terrible, but _ _ I got the money back for my ticket.",
+    "correctAnswers": "at|least",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33231,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I got three _ and I put on my winter coat.",
+    "correctAnswers": "blankets",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33232,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Our flight was _ by an hour.",
+    "correctAnswers": "delayed",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33233,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The wifi _ _ in the rest of the train, either.",
+    "correctAnswers": "wasn't|working",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33234,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Please turn the _ on, I'm freezing.",
+    "correctAnswers": "heating",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33235,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I forgot my _ and couldn't fly.",
+    "correctAnswers": "passport",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33236,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "This is when things start to go really wrong. Who will win? It's _ to say.",
+    "correctAnswers": "impossible",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33237,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Have you seen any films _?",
+    "correctAnswers": "recently",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33238,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She _ _ _ his friends at the party.",
+    "correctAnswers": "got|to|know",
+    "exactmatch": true,
+    "hint": true
+  },
+  {
+    "id": 33239,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I can _ going to the park.",
+    "correctAnswers": "recommend",
+    "exactmatch": true,
+    "hint": true
+  }
+]

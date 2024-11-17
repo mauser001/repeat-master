@@ -77,11 +77,22 @@ export class ResultComponent {
   }
 
   retry = () => {
-    if (this.result$()?.state === 'complete') {
-      this.#progressService.updateResult(this.#id, []);
-    }
+    this.#checkCompleted();
     this.#router.navigateByUrl(`quiz/${this.#id}`);
   }
 
+  home = () => {
+    this.#checkCompleted();
+    this.#router.navigateByUrl('');
+  }
+
   trackBy = (_index: number, question: Question) => question.id
+
+  #checkCompleted = () => {
+    if (this.result$()?.state === 'complete') {
+      this.#progressService.increaseCompletedCount(this.#id);
+      this.#progressService.updateResult(this.#id, []);
+    }
+
+  }
 }
