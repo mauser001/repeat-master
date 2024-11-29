@@ -1,0 +1,308 @@
+[
+  {
+    "id": 34000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "coincidence",
+    "text": "Zufall, Glück, Fügung",
+    "exactMatch": true
+  },
+  {
+    "id": 34001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "incredible",
+    "text": "unglaublich",
+    "exactMatch": true
+  },
+  {
+    "id": 34002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "What a",
+    "text": "Was für ein (...!)",
+    "exactMatch": true
+  },
+  {
+    "id": 34003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "member",
+    "text": "Mitglied",
+    "exactMatch": true
+  },
+  {
+    "id": 34004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "passenger",
+    "text": "Fahrgast; Passagier/in",
+    "exactMatch": true
+  },
+  {
+    "id": 34005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "complaint",
+    "text": "Beschwerde",
+    "exactMatch": true
+  },
+  {
+    "id": 34006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "belong to",
+    "text": "gehören",
+    "exactMatch": true
+  },
+  {
+    "id": 34007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "daily",
+    "text": "täglich",
+    "exactMatch": true
+  },
+  {
+    "id": 34008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "immediately",
+    "text": "sofort, unverzüglich",
+    "exactMatch": true
+  },
+  {
+    "id": 34009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "notice",
+    "text": "bemerken",
+    "exactMatch": true
+  },
+  {
+    "id": 34010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "someone else",
+    "text": "jemand anders",
+    "exactMatch": true
+  },
+  {
+    "id": 34011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "suitcase",
+    "text": "Koffer",
+    "exactMatch": true
+  },
+  {
+    "id": 34012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "bill",
+    "text": "Rechnung",
+    "exactMatch": true
+  },
+  {
+    "id": 34013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "sunglasses",
+    "text": "Sonnenbrille",
+    "exactMatch": true
+  },
+  {
+    "id": 34014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "try on",
+    "text": "anprobieren",
+    "exactMatch": true
+  },
+  {
+    "id": 34015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "careless",
+    "text": "unvorsichtig, leichtsinnig",
+    "exactMatch": true
+  },
+  {
+    "id": 34016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "handbag",
+    "text": "Handtasche",
+    "exactMatch": true
+  },
+  {
+    "id": 34017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "have a look",
+    "text": "sich etwas ansehen",
+    "exactMatch": true
+  },
+  {
+    "id": 34018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "headphones",
+    "text": "Kopfhörer",
+    "exactMatch": true
+  },
+  {
+    "id": 34019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "I beg your pardon.",
+    "text": "Entschuldigung, tut mir leid",
+    "exactMatch": true
+  },
+  {
+    "id": 34020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "shall",
+    "text": "sollen",
+    "exactMatch": true
+  },
+  {
+    "id": 34021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "dial",
+    "text": "wählen",
+    "exactMatch": true
+  },
+  {
+    "id": 34022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "enter",
+    "text": "betreten, eintreten",
+    "exactMatch": true
+  },
+  {
+    "id": 34023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "have an interest in something",
+    "text": "sich für etwas interessieren",
+    "exactMatch": true
+  },
+  {
+    "id": 34024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "interrupt",
+    "text": "unterbrechen",
+    "exactMatch": true
+  },
+  {
+    "id": 34025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "meal",
+    "text": "Mahlzeit, Essen",
+    "exactMatch": true
+  },
+  {
+    "id": 34026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "the movies",
+    "text": "Kino",
+    "exactMatch": true
+  },
+  {
+    "id": 34027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "on one's way",
+    "text": "auf dem Weg",
+    "exactMatch": true
+  },
+  {
+    "id": 34028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "wave",
+    "text": "Welle",
+    "exactMatch": true
+  },
+  {
+    "id": 34029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "not any more",
+    "text": "nicht mehr",
+    "exactMatch": true
+  },
+  {
+    "id": 34030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "surprised",
+    "text": "überrascht",
+    "exactMatch": true
+  },
+  {
+    "id": 34031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "date of birth",
+    "text": "Geburtsdatum",
+    "exactMatch": true
+  },
+  {
+    "id": 34032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "fall in love",
+    "text": "sich verlieben",
+    "exactMatch": true
+  },
+  {
+    "id": 34033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "correctAnswers": "I'm sorry?",
+    "text": "Wie bitte?",
+    "exactMatch": true
+  }
+]

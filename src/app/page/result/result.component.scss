@@ -5,6 +5,12 @@
     justify-content: space-between;
     gap: var(--padding);
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: var(--padding);
+    }
+
     h3 {
         text-align: center;
     }
@@ -40,6 +46,8 @@
         display: flex;
         gap: var(--padding);
         justify-content: flex-end;
+        position: sticky;
+        bottom: var(--padding);
 
         .button {
             flex-direction: column;

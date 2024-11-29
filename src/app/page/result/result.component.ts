@@ -51,14 +51,19 @@ export class ResultComponent {
           quizService.getQuiz(id).pipe(
             withLatestFrom(progressService.results$),
             map(([quiz, results]) => {
-              console.log('quiz, comp', quiz, results)
               let state: CompleteState = 'wrong';
               if (!quiz.quiz) {
                 return undefined
               }
-              const questions = quiz.questions;
-              const total = questions.length;
               const completedIds = results[quiz.quiz.id] || [];
+              const questions = quiz.questions.sort((a, b) => {
+                if (completedIds.includes(a.id))
+                  return 1;
+                if (completedIds.includes(b.id))
+                  return -1;
+                return a.id - b.id
+              });
+              const total = questions.length;
               const completed = completedIds.length;
               if (completed > 0) {
                 state = completed >= total ? 'complete' : 'partial';

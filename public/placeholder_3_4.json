@@ -1,0 +1,342 @@
+[
+  {
+    "id": 34200,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "It's a _ they crashed into each other's car.",
+    "correctAnswers": "coincidence",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34201,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "That story is _.",
+    "correctAnswers": "incredible",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34202,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ _ coincidence! We crashed into each other.",
+    "correctAnswers": "What|a",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34203,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Five _ of the crew were asleep.",
+    "correctAnswers": "members",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34204,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The plane had 200 _.",
+    "correctAnswers": "passengers",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34205,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "There were _ about the noise from neighbours.",
+    "correctAnswers": "complaints",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34206,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The book _ _ me. It's mine.",
+    "correctAnswers": "belongs|to",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34207,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We bring you this programme _.",
+    "correctAnswers": "daily",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34208,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Of course I read his message _.",
+    "correctAnswers": "immediately",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34209,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She didn't _ that the door was open.",
+    "correctAnswers": "notice",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34210,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Does this book belong to you or to _ _?",
+    "correctAnswers": "someone|else",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34211,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I lost my _ at the airport.",
+    "correctAnswers": "suitcase",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34212,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Let me pay the _.",
+    "correctAnswers": "bill",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34213,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "When the sun is strong, wear _.",
+    "correctAnswers": "sunglasses",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34214,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I _ _ a hat at the shop.",
+    "correctAnswers": "tried|on",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34215,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You've lost my mobile phone? How _ of you!",
+    "correctAnswers": "careles",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34216,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She has a _ over her shoulder.",
+    "correctAnswers": "handbag",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34217,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ _ _-it's my wallet.",
+    "correctAnswers": "Have|a|look",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34218,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He was wearing _ and listening to music.",
+    "correctAnswers": "headphones",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34219,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ _ _ _, do you know where the station is?",
+    "correctAnswers": "I|beg|your|pardon",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34220,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "My wallet is gone! What _ I do?",
+    "correctAnswers": "shall",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34221,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Make sure you _ the telephone number correctly.",
+    "correctAnswers": "dial",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34222,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I'm sorry, he said when he _ the shop.",
+    "correctAnswers": "entered",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34223,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She _ _ _ _ _ classical music.",
+    "correctAnswers": "has|a|great|interest|in",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34224,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ _? I didn't hear what you were saying.",
+    "correctAnswers": "I'm|sorry",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34225,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Let me finish. Please don't _.",
+    "correctAnswers": "interrupt",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34226,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I had my favourite _ last night. Pizza!",
+    "correctAnswers": "meal",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34227,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Maybe we can go to _ _ tomorrow.",
+    "correctAnswers": "the movies",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34228,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He had lost her number _ _ _ home.",
+    "correctAnswers": "on his way",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34229,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The _ were very high in the storm last night.",
+    "correctAnswers": "waves",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34230,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Belinda _ _ here _ _.",
+    "correctAnswers": "doesn't|live|any|more",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34231,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He was _ to see her name in the book.",
+    "correctAnswers": "surprised",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34232,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Our _ _ _ was the same.",
+    "correctAnswers": "date|of|birth",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 34233,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They met in Paris and _ _ _.",
+    "correctAnswers": "fell|in|love",
+    "exactMatch": true,
+    "hint": true
+  }
+]

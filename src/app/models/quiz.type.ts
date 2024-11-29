@@ -6,4 +6,5 @@ export type Quiz = {
     description?: string;
     questionIds?: number[];
     questionIdsMap?: string;
+    files: string;
 }

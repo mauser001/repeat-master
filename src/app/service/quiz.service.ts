@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { catchError, map, Observable, shareReplay, tap } from 'rxjs';
+import { catchError, filter, forkJoin, map, Observable, shareReplay, switchMap, take, tap } from 'rxjs';
 import { Quiz } from '../models/quiz.type';
 import { HttpClient } from '@angular/common/http';
 import { ListResponse } from '../models/list-response.type';
@@ -13,6 +13,7 @@ import { ProgressService } from './progress.service';
 export class QuizService {
   readonly #http = inject(HttpClient)
   readonly #progressService = inject(ProgressService);
+  readonly #questionsByFilename: Record<string, Observable<Question[]>> = {}
 
   constructor() { }
 
@@ -22,6 +23,7 @@ export class QuizService {
       console.log('error', e);
       return []
     }),
+    take(1),
     shareReplay(1),
     map((data) => ({
       ...data,
@@ -50,18 +52,40 @@ export class QuizService {
     })
   )
 
-  readonly quizes: Observable<Quiz[]> = this.#list$.pipe(
+  readonly getQuestions = (fileName: string): Observable<Question[]> => {
+    if (this.#questionsByFilename[fileName]) {
+      return this.#questionsByFilename[fileName];
+    }
+
+    const newList = this.#http.get<Question[]>(`./${fileName}`).pipe(
+      take(1),
+      shareReplay(1)
+    );
+
+    this.#questionsByFilename[fileName] = newList;
+
+    return newList;
+  }
+
+  readonly quizes$: Observable<Quiz[]> = this.#list$.pipe(
     map((list) => list.quizes)
   )
 
-  readonly getQuiz = (id: number): Observable<{ quiz?: Quiz, questions: Question[] }> => this.#list$.pipe(
-    map((list) => {
-      const quiz = list.quizes.find((q) => q.id === id)
-      const questions = randomizeList(list.questions.filter((q) => quiz?.questionIds?.includes(q.id)))
-      return {
-        quiz,
-        questions
-      }
+  readonly getQuiz = (id: number): Observable<{ quiz?: Quiz, questions: Question[] }> => this.quizes$.pipe(
+    map((quizes) => {
+      return quizes.find((q) => q.id === id)
+    }),
+    filter((quiz) => !!quiz),
+    switchMap((quiz) => {
+      return forkJoin(quiz.files.split(',').map((fileName) => this.getQuestions(fileName))).pipe(
+        map((totalQuestions) => {
+          const questions = randomizeList(totalQuestions.flatMap((list) => list).filter((q) => quiz?.questionIds?.includes(q.id)))
+          return {
+            quiz,
+            questions
+          }
+        })
+      )
     })
   )
 }

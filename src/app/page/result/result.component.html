@@ -1,5 +1,5 @@
 <div *ngIf="result$() as result; else noQuiz" class="result">
-    <div>
+    <div class="container">
         <h3 class="header {{result.state}}" [ngSwitch]="result.state">
             <ng-content *ngSwitchCase="'complete'">
                 You answered all questions of correctly and completed this quest!

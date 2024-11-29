@@ -1,0 +1,398 @@
+[
+  {
+    "id": 33000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Erfahrung",
+    "correctAnswers": "experience",
+    "exactMatch": true
+  },
+  {
+    "id": 33001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "über",
+    "correctAnswers": "across",
+    "exactMatch": true
+  },
+  {
+    "id": 33002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "irgendjemand: jede/r",
+    "correctAnswers": "anyone",
+    "exactMatch": true
+  },
+  {
+    "id": 33003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Jahrhundert",
+    "correctAnswers": "century",
+    "exactMatch": true
+  },
+  {
+    "id": 33004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Land(schaft)",
+    "correctAnswers": "countryside",
+    "exactMatch": true
+  },
+  {
+    "id": 33005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Entscheidung",
+    "correctAnswers": "decision",
+    "exactMatch": true
+  },
+  {
+    "id": 33006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "erforschen, erkunden",
+    "correctAnswers": "explore",
+    "exactMatch": true
+  },
+  {
+    "id": 33007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Forscher/in",
+    "correctAnswers": "explorer",
+    "exactMatch": true
+  },
+  {
+    "id": 33008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Markt",
+    "correctAnswers": "market",
+    "exactMatch": true
+  },
+  {
+    "id": 33009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "segeln",
+    "correctAnswers": "sail",
+    "exactMatch": true
+  },
+  {
+    "id": 33010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Geruch",
+    "correctAnswers": "smell",
+    "exactMatch": true
+  },
+  {
+    "id": 33011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Reisende/r",
+    "correctAnswers": "traveller",
+    "exactMatch": true
+  },
+  {
+    "id": 33012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einsam",
+    "correctAnswers": "lonely",
+    "exactMatch": true
+  },
+  {
+    "id": 33013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Krokodil",
+    "correctAnswers": "crocodile",
+    "exactMatch": true
+  },
+  {
+    "id": 33014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Tod",
+    "correctAnswers": "death",
+    "exactMatch": true
+  },
+  {
+    "id": 33015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "schwach",
+    "correctAnswers": "weak",
+    "exactMatch": true
+  },
+  {
+    "id": 33016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Hauptstadt",
+    "correctAnswers": "city",
+    "exactMatch": true
+  },
+  {
+    "id": 33017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "eine Weile",
+    "correctAnswers": "for a while",
+    "exactMatch": true
+  },
+  {
+    "id": 33018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich auf etwas freuen",
+    "correctAnswers": "look forward to something",
+    "exactMatch": true
+  },
+  {
+    "id": 33019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "etwas vorziehen, bevorzugen",
+    "correctAnswers": "prefer something",
+    "exactMatch": true
+  },
+  {
+    "id": 33020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Landschaft",
+    "correctAnswers": "scenery",
+    "exactMatch": true
+  },
+  {
+    "id": 33021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(Ruhe-)Pause",
+    "correctAnswers": "rest",
+    "exactMatch": true
+  },
+  {
+    "id": 33022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Angst haben / sich fürchten (vor)",
+    "correctAnswers": "be afraid (of)",
+    "exactMatch": true
+  },
+  {
+    "id": 33023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Klippe, Kliff",
+    "correctAnswers": "cliff",
+    "exactMatch": true
+  },
+  {
+    "id": 33024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "erfahren, geschult",
+    "correctAnswers": "experienced",
+    "exactMatch": true
+  },
+  {
+    "id": 33025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "zum Glück",
+    "correctAnswers": "fortunately",
+    "exactMatch": true
+  },
+  {
+    "id": 33026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ausrüstung, Sachen",
+    "correctAnswers": "gear",
+    "exactMatch": true
+  },
+  {
+    "id": 33027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich anfreunden",
+    "correctAnswers": "make friends",
+    "exactMatch": true
+  },
+  {
+    "id": 33028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Bergwand",
+    "correctAnswers": "rock face",
+    "exactMatch": true
+  },
+  {
+    "id": 33029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Sicht, (Aus-)Blick, Ausssicht",
+    "correctAnswers": "view",
+    "exactMatch": true
+  },
+  {
+    "id": 33030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "allmählich",
+    "correctAnswers": "gradually",
+    "exactMatch": true
+  },
+  {
+    "id": 33031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Kunde/Kundin",
+    "correctAnswers": "customer",
+    "exactMatch": true
+  },
+  {
+    "id": 33032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Abreise",
+    "correctAnswers": "departure",
+    "exactMatch": true
+  },
+  {
+    "id": 33033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "wenigstens, zumindest, mindestens",
+    "correctAnswers": "at least",
+    "exactMatch": true
+  },
+  {
+    "id": 33034,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Decke",
+    "correctAnswers": "blanket",
+    "exactMatch": true
+  },
+  {
+    "id": 33035,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "verspätet, verzögert",
+    "correctAnswers": "delayed",
+    "exactMatch": true
+  },
+  {
+    "id": 33036,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Heizung",
+    "correctAnswers": "heating",
+    "exactMatch": true
+  },
+  {
+    "id": 33037,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "auch nicht",
+    "correctAnswers": "not ... either",
+    "exactMatch": true
+  },
+  {
+    "id": 33038,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Reisepass",
+    "correctAnswers": "passport",
+    "exactMatch": true
+  },
+  {
+    "id": 33039,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "schief gehen",
+    "correctAnswers": "go wrong",
+    "exactMatch": true
+  },
+  {
+    "id": 33040,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "unmöglich",
+    "correctAnswers": "impossible",
+    "exactMatch": true
+  },
+  {
+    "id": 33041,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "kürzlich, vor kurzem, neulich",
+    "correctAnswers": "recently",
+    "exactMatch": true
+  },
+  {
+    "id": 33042,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "jemanden/etwas kennenlernen",
+    "correctAnswers": "get to know somebody/something",
+    "exactMatch": true
+  },
+  {
+    "id": 33043,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "empfehlen",
+    "correctAnswers": "recommend",
+    "exactMatch": true
+  }
+]

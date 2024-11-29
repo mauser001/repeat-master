@@ -23,7 +23,7 @@ export class OverviewComponent {
   completedCount: Signal<CompletedCount>
 
   constructor(quizService: QuizService, resultService: ProgressService) {
-    this.quizes = toSignal(quizService.quizes, { initialValue: [] });
+    this.quizes = toSignal(quizService.quizes$, { initialValue: [] });
     this.results = toSignal(resultService.results$, { initialValue: {} });
     this.completedCount = toSignal(resultService.completedCount$, { initialValue: {} })
   }
