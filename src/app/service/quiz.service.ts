@@ -11,14 +11,15 @@ import { ProgressService } from './progress.service';
   providedIn: 'root'
 })
 export class QuizService {
-  readonly #http = inject(HttpClient)
+  readonly #questVersion = 1;
+  readonly #http = inject(HttpClient);
   readonly #progressService = inject(ProgressService);
-  readonly #questionsByFilename: Record<string, Observable<Question[]>> = {}
+  readonly #questionsByFilename: Record<string, Observable<Question[]>> = {};
 
   constructor() { }
 
 
-  readonly #list$: Observable<ListResponse> = this.#http.get<ListResponse>('./list.json').pipe(
+  readonly #list$: Observable<ListResponse> = this.#http.get<ListResponse>(`/list.json?v=${this.#questVersion}`).pipe(
     catchError((e) => {
       console.log('error', e);
       return []
@@ -57,7 +58,7 @@ export class QuizService {
       return this.#questionsByFilename[fileName];
     }
 
-    const newList = this.#http.get<Question[]>(`./${fileName}`).pipe(
+    const newList = this.#http.get<Question[]>(`./${fileName}?v=${this.#questVersion}`).pipe(
       take(1),
       shareReplay(1)
     );

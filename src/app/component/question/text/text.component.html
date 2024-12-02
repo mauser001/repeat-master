@@ -1,6 +1,7 @@
 <div class="question" *ngIf="question() as question">
+    <h4>{{question.text}}</h4>
     <mat-form-field class="form-field">
-        <mat-label>{{question.text}}</mat-label>
-        <input matInput value="" (change)="onInputChange($event)">
+        <input matInput spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" value=""
+            (change)="onInputChange($event)" (keydown.enter)="next.emit()">
     </mat-form-field>
 </div>

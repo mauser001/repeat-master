@@ -17,7 +17,7 @@ import { validateAnswers } from '../../utils/quiz';
 import { MatIcon, MatIconModule } from '@angular/material/icon';
 import { MatFabButton } from '@angular/material/button';
 import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
-import { CdkPortal, CdkPortalOutlet, TemplatePortal } from '@angular/cdk/portal';
+import { CdkPortalOutlet, TemplatePortal } from '@angular/cdk/portal';
 import { PlacholderComponent } from '../../component/question/placholder/placholder.component';
 import { randomizeList, randomizeText } from '../../utils/randomize';
 
@@ -30,7 +30,6 @@ import { randomizeList, randomizeText } from '../../utils/randomize';
     MatIconModule,
     MatIcon,
     MatFabButton,
-    CdkPortal,
     CdkPortalOutlet,
     NgFor,
     NgIf,
@@ -121,6 +120,16 @@ export class QuizComponent {
   }
 
   finish = () => {
+    this.#saveProgress();
+    this.#router.navigateByUrl(`result/${this.data()?.quiz?.id}`)
+  }
+
+  abort = () => {
+    this.#saveProgress();
+    this.#router.navigateByUrl('')
+  }
+
+  #saveProgress = () => {
     const results = this.#results()
     const quiz = this.data()?.quiz
     const questions = this.data()?.questions || []
@@ -134,7 +143,6 @@ export class QuizComponent {
     }).map(([key]) => Number(key))
 
     this.#progressService.updateResult(quiz.id, union<number>(results[quiz.id], correctAnswers))
-    this.#router.navigateByUrl(`result/${quiz.id}`)
   }
 
   trackBy = (_index: number, question: Question) => question.id

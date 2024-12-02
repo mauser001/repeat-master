@@ -5,7 +5,7 @@
                 You answered all questions of correctly and completed this quest!
             </ng-content>
             <ng-content *ngSwitchCase="'partial'">
-                You answered some of the questions correctly, try again!
+                You answered {{ result.completed }} of {{ result.total }} questions correctly, try again!
             </ng-content>
             <ng-content *ngSwitchCase="'wrong'">
                 You did not answer any question correctly, try harder!

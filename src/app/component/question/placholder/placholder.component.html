@@ -1,7 +1,8 @@
 <div class="question">
     <ng-content *ngFor="let part of parts()">
-        <input *ngIf="part.isPlaceholder; else simpleText" matInput value=""
-            (change)="onInputChange($event, part.index!)" [style.width]="part.width+'px'">
+        <input *ngIf="part.isPlaceholder; else simpleText" matInput value="" spellcheck="false" autocomplete="off"
+            autocorrect="off" autocapitalize="off" (change)="onInputChange($event, part.index!)"
+            [style.width]="part.width+'px'">
         <ng-template #simpleText><span>{{part.text}}</span></ng-template>
     </ng-content>
 </div>

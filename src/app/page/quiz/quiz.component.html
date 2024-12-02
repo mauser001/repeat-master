@@ -16,7 +16,8 @@
                             <mat-card-title>{{ question.description }}</mat-card-title>
                             <mat-card-content class="question" [ngSwitch]="question.type">
                                 <rep-question-text *ngSwitchCase="'text'" [question]="question"
-                                    (onAnswers)="updateAnswer($event)"></rep-question-text>
+                                    (onAnswers)="updateAnswer($event)"
+                                    (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-question-text>
                                 <rep-placholder *ngSwitchCase="'placeholder'" [question]="question"
                                     (onAnswers)="updateAnswer($event)"></rep-placholder>
                                 <div *ngSwitchDefault>
@@ -62,7 +63,7 @@
                 <mat-icon class="icon" fontIcon="exit_to_app" aria-label="finish quiz"></mat-icon>
                 Finish
             </button>
-            <button class="button" [routerLink]="''" mat-fab extended aria-label="Abort Quiz">
+            <button class="button" mat-fab extended aria-label="Abort Quiz" (click)="abort()">
                 <mat-icon class="icon" fontIcon="block" aria-label="abort quiz"></mat-icon>
                 Abort
             </button>

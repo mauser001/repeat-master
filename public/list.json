@@ -25,12 +25,20 @@
       "files": "vocabulary_3_3.json,placeholder_3_3.json"
     },
     {
+      "id": 33003,
+      "title": "Vocabulary Year 3 Unit 3 bonus mission",
+      "category": "english",
+      "description": "Find the correct translation",
+      "questionIdsMap": "33044-33061",
+      "files": "vocabulary_3_3.json"
+    },
+    {
       "id": 34000,
       "title": "Vocabulary Year 3 Unit 4",
       "category": "english",
       "description": "Find the correct translations",
       "questionIdsMap": "34000-34033",
-      "files": "vocabulary_3_3.json"
+      "files": "vocabulary_3_4.json"
     },
     {
       "id": 34001,

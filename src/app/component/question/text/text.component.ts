@@ -16,6 +16,7 @@ import { Answer } from '../../../models/answer.type';
 export class TextComponent {
   question = input.required<Question>()
   onAnswers = output<Answer>();
+  next = output<void>();
 
   onInputChange = (event: Event) => this.onAnswers.emit({ questionId: this.question().id, values: [(event.target as HTMLInputElement).value] });
 }

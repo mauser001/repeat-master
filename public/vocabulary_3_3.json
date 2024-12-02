@@ -394,5 +394,167 @@
     "text": "empfehlen",
     "correctAnswers": "recommend",
     "exactMatch": true
+  },
+  {
+    "id": 33044,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "an Höhenangst leiden",
+    "correctAnswers": "suffer from altitude sickness",
+    "exactMatch": true
+  },
+  {
+    "id": 33045,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "landen",
+    "correctAnswers": "land",
+    "exactMatch": true
+  },
+  {
+    "id": 33046,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "zurück fliegen",
+    "correctAnswers": "fly back",
+    "exactMatch": true
+  },
+  {
+    "id": 33047,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "in Zelten schlafen",
+    "correctAnswers": "sleep i tents",
+    "exactMatch": true
+  },
+  {
+    "id": 33048,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "es dauert eine Stunde",
+    "correctAnswers": "it takes an hour",
+    "exactMatch": true
+  },
+  {
+    "id": 33049,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ins Flugzeug einsteigen",
+    "correctAnswers": "get on a plane",
+    "exactMatch": true
+  },
+  {
+    "id": 33050,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich auf den Weg zur Arbeit machen",
+    "correctAnswers": "set off for work",
+    "exactMatch": true
+  },
+  {
+    "id": 33051,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "zum Flughafen kommen",
+    "correctAnswers": "get to the airport",
+    "exactMatch": true
+  },
+  {
+    "id": 33052,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "miteinander reden",
+    "correctAnswers": "talk to teach other",
+    "exactMatch": true
+  },
+  {
+    "id": 33053,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "das Flugzeug verlassen",
+    "correctAnswers": "get off the plane",
+    "exactMatch": true
+  },
+  {
+    "id": 33054,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "andere Menschen treffen",
+    "correctAnswers": "meet other people",
+    "exactMatch": true
+  },
+  {
+    "id": 33055,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Alligatoren nahe kommen",
+    "correctAnswers": "get close to alligators",
+    "exactMatch": true
+  },
+  {
+    "id": 33056,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "zusammen sein",
+    "correctAnswers": "be with each other",
+    "exactMatch": true
+  },
+  {
+    "id": 33057,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einen Ausflug machen",
+    "correctAnswers": "take a trip",
+    "exactMatch": true
+  },
+  {
+    "id": 33058,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ein Auto mieten",
+    "correctAnswers": "hire a car",
+    "exactMatch": true
+  },
+  {
+    "id": 33059,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "nach Hause fahren",
+    "correctAnswers": "drive home",
+    "exactMatch": true
+  },
+  {
+    "id": 33060,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "weg kommen",
+    "correctAnswers": "get away",
+    "exactMatch": true
+  },
+  {
+    "id": 33061,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "starten",
+    "correctAnswers": "take off",
+    "exactMatch": true
   }
 ]
