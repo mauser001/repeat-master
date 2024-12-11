@@ -11,7 +11,7 @@ import { ProgressService } from './progress.service';
   providedIn: 'root'
 })
 export class QuizService {
-  readonly #questVersion = 1;
+  readonly #questVersion = 2;
   readonly #http = inject(HttpClient);
   readonly #progressService = inject(ProgressService);
   readonly #questionsByFilename: Record<string, Observable<Question[]>> = {};

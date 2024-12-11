@@ -25,7 +25,7 @@
     "category": "vocabulary",
     "description": "Fill out the placeholder",
     "text": "There was never _ at the beach, so we could gallop as much as we wanted.",
-    "correctAnswers": "anyone ",
+    "correctAnswers": "anyone",
     "exactMatch": true,
     "hint": true
   },
