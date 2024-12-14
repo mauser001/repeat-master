@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { catchError, filter, forkJoin, map, Observable, shareReplay, switchMap, take, tap } from 'rxjs';
+import { BehaviorSubject, catchError, filter, forkJoin, map, Observable, shareReplay, switchMap, take, tap } from 'rxjs';
 import { Quiz } from '../models/quiz.type';
 import { HttpClient } from '@angular/common/http';
 import { ListResponse } from '../models/list-response.type';
@@ -11,7 +11,7 @@ import { ProgressService } from './progress.service';
   providedIn: 'root'
 })
 export class QuizService {
-  readonly #questVersion = 2;
+  readonly #questVersion = new BehaviorSubject(0);
   readonly #http = inject(HttpClient);
   readonly #progressService = inject(ProgressService);
   readonly #questionsByFilename: Record<string, Observable<Question[]>> = {};
@@ -19,13 +19,14 @@ export class QuizService {
   constructor() { }
 
 
-  readonly #list$: Observable<ListResponse> = this.#http.get<ListResponse>(`/list.json?v=${this.#questVersion}`).pipe(
+  readonly #list$: Observable<ListResponse> = this.#http.get<ListResponse>(`/list.json?v=${Math.floor(Date.now() / 360000)}`).pipe(
     catchError((e) => {
       console.log('error', e);
       return []
     }),
     take(1),
     shareReplay(1),
+    tap((data) => this.#questVersion.next(data.version)),
     map((data) => ({
       ...data,
       quizes: data.quizes.map((quiz) => {
@@ -58,7 +59,7 @@ export class QuizService {
       return this.#questionsByFilename[fileName];
     }
 
-    const newList = this.#http.get<Question[]>(`./${fileName}?v=${this.#questVersion}`).pipe(
+    const newList = this.#http.get<Question[]>(`./${fileName}?v=${this.#questVersion.getValue()}`).pipe(
       take(1),
       shareReplay(1)
     );

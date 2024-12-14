@@ -1,0 +1,48 @@
+:host {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: -1;
+    overflow: hidden;
+
+    .img {
+        opacity: 0.2;
+        background: url("/assets/circle.png") no-repeat center;
+        transition: opacity 1s;
+        width: 10%;
+        aspect-ratio: 1;
+        height: auto;
+        min-width: calc(100vh / 10);
+
+        &.animation {
+            opacity: 0.3;
+            animation: spinning 5s infinite;
+        }
+
+        &:nth-child(2n) {
+            animation-delay: 1s;
+        }
+
+        &:nth-child(3n) {
+            animation-delay: 4s;
+        }
+
+        &:nth-child(5n) {
+            animation-delay: 3s;
+        }
+
+        &:nth-child(7n) {
+            animation-delay: 2s;
+        }
+
+    }
+}
+
+@keyframes spinning {
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

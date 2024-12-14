@@ -1,0 +1,832 @@
+[
+  {
+    "id": 99000,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: laufen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "run|ran|run",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99001,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fliegen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "fly|flew|flown",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99002,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: vergessen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "forget|forgot|forgotten",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99003,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sagen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "say|said|said",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99004,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (sich) verstecken",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hide|hid|hidden",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99005,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "see|saw|seen",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99006,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (sich) verletzen, schmerzen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hurt|hurt|hurt",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99007,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: senden, schicken",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "send|sent|sent",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99008,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: setzen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "set|set|set",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99009,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: bekommen, werden",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "get|got|got",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99010,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schütteln",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "shake|shook|shaken",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99011,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: aufstehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "get up|got up|got up",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99012,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: scheinen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "shine|shone|shone",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99013,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: geben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "give|gave|given",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99014,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schießen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "shoot|shot|shot",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99015,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: gehen, fahren",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "go|went|gone",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99016,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: zeigen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "show|showed|shown [showed]",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99017,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: wachsen, züchten: anbauen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "grow|grew|grown",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99018,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: singen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "sing|sang|sung",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99019,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: hängen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hang|hung|hung",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99020,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: untergehen, sinken",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "sink|sank [sunk]|sunk",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99021,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: haben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "have|had|had",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99022,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sitzen, sich setzen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "sit|sat|sat",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99023,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: hören",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hear|heard|heard",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99024,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schlafen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "sleep|slept|slept",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99025,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schlagen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hit|hit|hit",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99026,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: riechen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "smell|smelt [smelled]|smelt [smelled]",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99027,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (fest)halten",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "hold|held|held",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99028,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sprechen, sagen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "speak|spoke|spoken",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99029,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (be)halten",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "keep|kept|kept",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99030,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: verbringen, ausgeben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "spend|spent|spent",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99031,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: wissen, kennen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "know|knew|known",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99032,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: stehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "stand|stood|stood",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99033,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: legen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "lay|laid|laid",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99034,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: stehlen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "steal|stole|stolen",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99035,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: lernen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "learn|learnt [learned]|learnt [learned]",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99036,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schwimmen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "swim|swam|swum",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99037,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: verlassen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "leave|left|left",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99038,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: ausziehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "take off|took off|taken off",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99039,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: lassen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "let|let|let",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99040,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: nehmen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "take|took|taken",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99041,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: liegen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "lie|lay|lain",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99042,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: lehren, unterrichten",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "teach|taught|taught",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99043,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: verlieren",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "lose|lost|lost",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99044,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sagen, erzählen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "tell|told|told",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99045,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: machen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "make|made|made",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99046,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: treffen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "meet|met|met",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99047,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: denken",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "think|thought|thought",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99048,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: verstehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "understand|understood|understood",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99049,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: geben, setzen, stellen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "put|put|put",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99050,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (auf)wachen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "wake (up)|woke (up)|woken (up)",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99051,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: lesen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "read|read|read",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99052,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: gewinnen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "win|won|won",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99053,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: reiten, fahren",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "ride|rode|ridden",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99054,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schreiben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "write|wrote|written",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99055,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: läuten",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "ring|rang|rung",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99056,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: sein",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "be|was/were|been",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99057,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: graben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "dig|dug|dug",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99058,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schlagen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "beat|beat|beaten",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99059,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: tun, machen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "do|did|done",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99060,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: werden",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "become|became|become",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99061,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: zeichnen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "draw|drew|drawn",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99062,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: beginnen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "begin|began|begun",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99063,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: träumen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "dream|dreamt [dreamed]|dreamt [dreamed]",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99064,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: blasen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "blow|blew|blown",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99065,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: trinken",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "drink|drank|drunk",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99066,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: brechen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "break|broke|broken",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99067,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fahren, treiben",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "drive|drove|driven",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99068,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: bringen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "bring|brought|brought",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99069,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: essen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "eat|ate|eaten",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99070,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: bauen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "build|built|built",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99071,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fallen; (einschlafen)",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "fall (asleep)|fell (asleep)|fallen (asleep)",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99072,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (ver)brennen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "burn|burnt [burned]|burnt [burned]",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99073,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fressen; füttern",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "feed|fed|fed",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99074,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: kaufen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "buy|bought|bought",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99075,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fühlen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "feel|felt|felt",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99076,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fangen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "catch|caught|caught",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99077,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: kämpfen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "fight|fought|fought",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99078,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: (aus)wählen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "choose|chose|chosen",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99079,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: finden",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "find|found|found",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99080,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: kommen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "come|came|come",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99081,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: fliehen",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "flee|fled|fled",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 99082,
+    "type": "placeholder",
+    "category": "irregular verbs",
+    "description": "Find the irregular verbs for: schneiden",
+    "text": "Present: _ Past simple: _ Past participle: _ ",
+    "correctAnswers": "cut|cut|cut",
+    "exactMatch": true,
+    "hint": true
+  }
+]

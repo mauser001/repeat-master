@@ -17,6 +17,7 @@ export class PlacholderComponent {
 
   question = input.required<Question>()
   onAnswers = output<Answer>();
+  next = output<void>();
 
   answers = signal<string[]>([])
 

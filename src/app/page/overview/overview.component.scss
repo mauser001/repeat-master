@@ -6,6 +6,8 @@
     .card {
         padding: var(--padding);
         margin-bottom: var(--padding);
+        filter: var(--drop-shadow);
+        border-radius: var(--radius);
 
         .description {
             margin: var(--padding) 0;

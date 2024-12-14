@@ -1,5 +1,14 @@
 {
+  "version": "241214",
   "quizes": [
+    {
+      "id": 99000,
+      "title": "Irregular verbs",
+      "category": "english",
+      "description": "Find the irregular verbs",
+      "questionIdsMap": "99000-99082",
+      "files": "irregularVerbs.json"
+    },
     {
       "id": 33000,
       "title": "Vocabulary Year 3 Unit 3",

@@ -9,19 +9,28 @@ body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
     background-color: lightgrey;
-    background-image: url("assets/circle.png");
+    //background-image: url("assets/circle.png");
 
     --padding: 20px;
     --color-wrong: #ba1a1a;
     --color-complete: #00ff00;
     --color-partial: #ffff00;
+    --drop-shadow: drop-shadow(0 0 10px grey);
+    --radius: 5px;
 }
 
 h3 {
     background: lightgrey;
     padding: var(--padding);
+    filter: var(--drop-shadow);
+    border-radius: var(--radius);
 }
 
 .mat-horizontal-stepper-header-container {
     display: none !important;
+}
+
+mat-horizontal-stepper {
+    filter: var(--drop-shadow);
+    border-radius: var(--radius);
 }

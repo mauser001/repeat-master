@@ -19,7 +19,8 @@
                                     (onAnswers)="updateAnswer($event)"
                                     (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-question-text>
                                 <rep-placholder *ngSwitchCase="'placeholder'" [question]="question"
-                                    (onAnswers)="updateAnswer($event)"></rep-placholder>
+                                    (onAnswers)="updateAnswer($event)"
+                                    (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-placholder>
                                 <div *ngSwitchDefault>
                                     No question edtior defined for type: {{question.type}}
                                 </div>
