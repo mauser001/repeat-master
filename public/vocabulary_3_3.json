@@ -149,7 +149,7 @@
     "category": "vocabulary",
     "description": "Translate",
     "text": "Hauptstadt",
-    "correctAnswers": "city",
+    "correctAnswers": "capital city",
     "exactMatch": true
   },
   {
@@ -337,7 +337,7 @@
     "type": "text",
     "category": "vocabulary",
     "description": "Translate",
-    "text": "auch nicht",
+    "text": "auch nicht ...",
     "correctAnswers": "not ... either",
     "exactMatch": true
   },
