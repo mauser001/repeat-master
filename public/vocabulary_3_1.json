@@ -1,0 +1,281 @@
+[
+  {
+    "id": 31000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "nach, nachdem",
+    "correctAnswers": "after",
+    "exactMatch": true
+  },
+  {
+    "id": 31001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "überall",
+    "correctAnswers": "all over",
+    "exactMatch": true
+  },
+  {
+    "id": 31002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Angriff",
+    "correctAnswers": "attack",
+    "exactMatch": true
+  },
+  {
+    "id": 31003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(sich) entscheiden",
+    "correctAnswers": "decide",
+    "exactMatch": true
+  },
+  {
+    "id": 31004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "spenden",
+    "correctAnswers": "donate",
+    "exactMatch": true
+  },
+  {
+    "id": 31005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Spende",
+    "correctAnswers": "donation",
+    "exactMatch": true
+  },
+  {
+    "id": 31006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "berühmt",
+    "correctAnswers": "famous",
+    "exactMatch": true
+  },
+  {
+    "id": 31007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "beinhalten",
+    "correctAnswers": "include",
+    "exactMatch": true
+  },
+  {
+    "id": 31008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "beitreten",
+    "correctAnswers": "join",
+    "exactMatch": true
+  },
+  {
+    "id": 31009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "vielleicht, möglicherweise",
+    "correctAnswers": "maybe",
+    "exactMatch": true
+  },
+  {
+    "id": 31010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "müssen",
+    "correctAnswers": "need to",
+    "exactMatch": true
+  },
+  {
+    "id": 31011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "der/die/das",
+    "correctAnswers": "who",
+    "exactMatch": true
+  },
+  {
+    "id": 31012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "erfolgreich",
+    "correctAnswers": "successful",
+    "exactMatch": true
+  },
+  {
+    "id": 31013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "unterstützen",
+    "correctAnswers": "support",
+    "exactMatch": true
+  },
+  {
+    "id": 31014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Opfer",
+    "correctAnswers": "victim",
+    "exactMatch": true
+  },
+  {
+    "id": 31015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mutig, unerschrocken",
+    "correctAnswers": "brave",
+    "exactMatch": true
+  },
+  {
+    "id": 31016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(noch) nicht einmal",
+    "correctAnswers": "not even",
+    "exactMatch": true
+  },
+  {
+    "id": 31017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Melodie",
+    "correctAnswers": "tune",
+    "exactMatch": true
+  },
+  {
+    "id": 31018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "von (Ed Sheeran)",
+    "correctAnswers": "by",
+    "exactMatch": true
+  },
+  {
+    "id": 31019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Tanzfläche",
+    "correctAnswers": "dance floor",
+    "exactMatch": true
+  },
+  {
+    "id": 31020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einige Minuten lang",
+    "correctAnswers": "for a few minutes",
+    "exactMatch": true
+  },
+  {
+    "id": 31021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Liedtext",
+    "correctAnswers": "lyrics",
+    "exactMatch": true
+  },
+  {
+    "id": 31022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Stau",
+    "correctAnswers": "traffic jam",
+    "exactMatch": true
+  },
+  {
+    "id": 31023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "etwas nicht leiden können",
+    "correctAnswers": "can't stand something",
+    "exactMatch": true
+  },
+  {
+    "id": 31024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ich habe nichts dagegen.",
+    "correctAnswers": "I don't mind.",
+    "exactMatch": true
+  },
+  {
+    "id": 31025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Melodie",
+    "correctAnswers": "melody",
+    "exactMatch": true
+  },
+  {
+    "id": 31026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "zustimmen",
+    "correctAnswers": "agree",
+    "exactMatch": true
+  },
+  {
+    "id": 31027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "furchtbar, schrecklich, scheußlich",
+    "correctAnswers": "awful",
+    "exactMatch": true
+  },
+  {
+    "id": 31028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ich nehme es an",
+    "correctAnswers": "I guess",
+    "exactMatch": true
+  },
+  {
+    "id": 31029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Das tut mir leid.",
+    "correctAnswers": "I'm sorry.",
+    "exactMatch": true
+  },
+  {
+    "id": 31030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(Schall-) Platte",
+    "correctAnswers": "record",
+    "exactMatch": true
+  }
+]

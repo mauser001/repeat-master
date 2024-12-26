@@ -10,6 +10,38 @@
       "files": "irregularVerbs.json"
     },
     {
+      "id": 31000,
+      "title": "Vocabulary Year 3 Unit 1",
+      "category": "english",
+      "description": "Find the correct translations",
+      "questionIdsMap": "31000-31030",
+      "files": "vocabulary_3_1.json"
+    },
+    {
+      "id": 31001,
+      "title": "Vocabulary Year 3 Unit 1",
+      "category": "english",
+      "description": "Find the correct placeholder",
+      "questionIdsMap": "31200-31237",
+      "files": "placeholder_3_1.json"
+    },
+    {
+      "id": 32000,
+      "title": "Vocabulary Year 3 Unit 2",
+      "category": "english",
+      "description": "Find the correct translations",
+      "questionIdsMap": "32000-32033",
+      "files": "vocabulary_3_2.json"
+    },
+    {
+      "id": 32001,
+      "title": "Vocabulary Year 3 Unit 2",
+      "category": "english",
+      "description": "Find the correct placeholder",
+      "questionIdsMap": "32200-32233",
+      "files": "placeholder_3_2.json"
+    },
+    {
       "id": 33000,
       "title": "Vocabulary Year 3 Unit 3",
       "category": "english",
@@ -24,14 +56,6 @@
       "description": "Find the correct placeholder",
       "questionIdsMap": "33200-33239",
       "files": "placeholder_3_3.json"
-    },
-    {
-      "id": 33002,
-      "title": "Vocabulary Year 3 Unit 3 ultimate",
-      "category": "english",
-      "description": "Find the correct placeholder or translation",
-      "questionIdsMap": "33000-33043, 33200-33239",
-      "files": "vocabulary_3_3.json,placeholder_3_3.json"
     },
     {
       "id": 33003,
@@ -58,12 +82,20 @@
       "files": "placeholder_3_4.json"
     },
     {
-      "id": 34002,
-      "title": "Vocabulary Year 3 Unit 4 ultimate",
+      "id": 35000,
+      "title": "Vocabulary Year 3 Unit 5",
       "category": "english",
-      "description": "Find the correct placeholder or translation",
-      "questionIdsMap": "34000-34033,34200-34233",
-      "files": "vocabulary_3_4.json,placeholder_3_4.json"
+      "description": "Find the correct translations",
+      "questionIdsMap": "35000-35033",
+      "files": "vocabulary_3_5.json"
+    },
+    {
+      "id": 35001,
+      "title": "Vocabulary Year 3 Unit 5",
+      "category": "english",
+      "description": "Find the correct placeholder",
+      "questionIdsMap": "35200-35233",
+      "files": "placeholder_3_5.json"
     }
   ]
 }

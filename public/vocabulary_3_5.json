@@ -1,0 +1,326 @@
+[
+  {
+    "id": 35000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "im Voraus",
+    "correctAnswers": "in advance",
+    "exactMatch": true
+  },
+  {
+    "id": 35001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "etwas (nicht) tun dürfen",
+    "correctAnswers": "be (not) allowed to do sth",
+    "exactMatch": true
+  },
+  {
+    "id": 35002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Sehenswürdigkeit",
+    "correctAnswers": "attraction",
+    "exactMatch": true
+  },
+  {
+    "id": 35003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Gebäude",
+    "correctAnswers": "building",
+    "exactMatch": true
+  },
+  {
+    "id": 35004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Sammlung",
+    "correctAnswers": "collection",
+    "exactMatch": true
+  },
+  {
+    "id": 35005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Galerie",
+    "correctAnswers": "gallery",
+    "exactMatch": true
+  },
+  {
+    "id": 35006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Riesenrad",
+    "correctAnswers": "giant wheel",
+    "exactMatch": true
+  },
+  {
+    "id": 35007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Regierung",
+    "correctAnswers": "government",
+    "exactMatch": true
+  },
+  {
+    "id": 35008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Zeiger (Uhr)",
+    "correctAnswers": "hand",
+    "exactMatch": true
+  },
+  {
+    "id": 35009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "das Parlament (von Großbritannien)",
+    "correctAnswers": "the Houses of Parliament",
+    "exactMatch": true
+  },
+  {
+    "id": 35010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "andere/r/s",
+    "correctAnswers": "other",
+    "exactMatch": true
+  },
+  {
+    "id": 35011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Theaterstück",
+    "correctAnswers": "play",
+    "exactMatch": true
+  },
+  {
+    "id": 35012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Schlange, Reihe",
+    "correctAnswers": "queue",
+    "exactMatch": true
+  },
+  {
+    "id": 35013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(an-)heben, hochziehen",
+    "correctAnswers": "raise",
+    "exactMatch": true
+  },
+  {
+    "id": 35014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Kolkrabe",
+    "correctAnswers": "raven",
+    "exactMatch": true
+  },
+  {
+    "id": 35015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Theater",
+    "correctAnswers": "theatre",
+    "exactMatch": true
+  },
+  {
+    "id": 35016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Besucher/in",
+    "correctAnswers": "visitor",
+    "exactMatch": true
+  },
+  {
+    "id": 35017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "welche/r/s",
+    "correctAnswers": "which",
+    "exactMatch": true
+  },
+  {
+    "id": 35018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Gebiet, Bezirk",
+    "correctAnswers": "district",
+    "exactMatch": true
+  },
+  {
+    "id": 35019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Platz",
+    "correctAnswers": "square",
+    "exactMatch": true
+  },
+  {
+    "id": 35020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "aufregend",
+    "correctAnswers": "thrilling",
+    "exactMatch": true
+  },
+  {
+    "id": 35021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ziegel(stein)",
+    "correctAnswers": "brick",
+    "exactMatch": true
+  },
+  {
+    "id": 35022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "aus gebaut",
+    "correctAnswers": "built of",
+    "exactMatch": true
+  },
+  {
+    "id": 35023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "abbrennen",
+    "correctAnswers": "burn down",
+    "exactMatch": true
+  },
+  {
+    "id": 35024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Jahrhundert",
+    "correctAnswers": "century",
+    "exactMatch": true
+  },
+  {
+    "id": 35025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "eng, schmal",
+    "correctAnswers": "narrow",
+    "exactMatch": true
+  },
+  {
+    "id": 35026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "wieder aufbauen",
+    "correctAnswers": "rebuild",
+    "exactMatch": true
+  },
+  {
+    "id": 35027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Unterhaltung",
+    "correctAnswers": "entertainment",
+    "exactMatch": true
+  },
+  {
+    "id": 35028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Markt",
+    "correctAnswers": "market",
+    "exactMatch": true
+  },
+  {
+    "id": 35029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Denkmal",
+    "correctAnswers": "memorial",
+    "exactMatch": true
+  },
+  {
+    "id": 35030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "etwas satt haben",
+    "correctAnswers": "get tired of",
+    "exactMatch": true
+  },
+  {
+    "id": 35031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ich nehme es an",
+    "correctAnswers": "I guess",
+    "exactMatch": true
+  },
+  {
+    "id": 35032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "eine Menge",
+    "correctAnswers": "loads of",
+    "exactMatch": true
+  },
+  {
+    "id": 35033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Haut",
+    "correctAnswers": "skin",
+    "exactMatch": true
+  },
+  {
+    "id": 35034,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Verkehr",
+    "correctAnswers": "traffic",
+    "exactMatch": true
+  },
+  {
+    "id": 35035,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "unterirdisch",
+    "correctAnswers": "underground",
+    "exactMatch": true
+  }
+]

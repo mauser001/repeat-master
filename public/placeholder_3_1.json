@@ -1,0 +1,382 @@
+[
+  {
+    "id": 31200,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The police stopped the show _ only 42 minutes.",
+    "correctAnswers": "after",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31201,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "His death was a great shock _ _ the world.",
+    "correctAnswers": "all|over",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31202,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She became the victim of a shark _.",
+    "correctAnswers": "attack",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31203,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ what happens next.",
+    "correctAnswers": "Decide",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31204,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ some money to support our organisation.",
+    "correctAnswers": "Donate",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31205,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The highest _ this evening was €10,000.",
+    "correctAnswers": "donation",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31206,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The Rolling Stones had lots of _ songs.",
+    "correctAnswers": "famous",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31207,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "One reached number one in many countries, _ Germany, Spain and Canada.",
+    "correctAnswers": "including",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31208,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Many people wanted to _ the organisation.",
+    "correctAnswers": "join",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31209,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "_ you'll win.",
+    "correctAnswers": "Maybe",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31210,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You _ _ study more for your next test.",
+    "correctAnswers": "need|to",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31211,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She's the one _ called you.",
+    "correctAnswers": "who",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31212,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They have always been a very _ band.",
+    "correctAnswers": "successful",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31213,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I want to write an article to _ her.",
+    "correctAnswers": "support",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31214,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They organised a concert for the _ of the accident.",
+    "correctAnswers": "victims",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31215,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You have to be _ to sing on Superstar.",
+    "correctAnswers": "brave",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31216,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You don't look like a pop star. _ _ like a fun version of one.",
+    "correctAnswers": "Not|even",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31217,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I like songs with a good _.",
+    "correctAnswers": "tune",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31218,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The song \"Perfect\" is sung _ Ed Sheeran.",
+    "correctAnswers": "by",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31219,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "When I like a song, I get up on the _ _.",
+    "correctAnswers": "dance|floor",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31220,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "And I dance _ _ _ _.",
+    "correctAnswers": "for|a|few|minutes",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31221,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I like songs with a good tune. I don't care about the _.",
+    "correctAnswers": "lyrics",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31222,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Listening to music in a _ _ helps me relax.",
+    "correctAnswers": "traffic|jam",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31223,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Do you like Robbie Williams? _ _ _ his music.",
+    "correctAnswers": "I|can't|stand",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31224,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Of course you can go. _ _ _.",
+    "correctAnswers": "I|don't|mind",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31225,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "This song has a great _.",
+    "correctAnswers": "melody",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31226,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I'm sorry, I _. You're not our next superstar.",
+    "correctAnswers": "agree",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31227,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I think it looks _.",
+    "correctAnswers": "awful",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31228,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Yes, I _ that could be fun.",
+    "correctAnswers": "guess",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31229,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I didn't mean to interrupt. _ _.",
+    "correctAnswers": "I'm|sorry",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31230,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Some say their first _ was the best.",
+    "correctAnswers": "record",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31231,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "To give something _ _.",
+    "correctAnswers": "a|try",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31232,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He's going to _ _.",
+    "correctAnswers": "make|it",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31233,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You haven't got _ _ _.",
+    "correctAnswers": "what|it|takes",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31234,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "We'll _ _ to you.",
+    "correctAnswers": "get|back",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31235,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She's _ _ _ up.",
+    "correctAnswers": "on|the|way",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31236,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Don't _ _.",
+    "correctAnswers": "give|up",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 31237,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She's got a _ _.",
+    "correctAnswers": "good|voice",
+    "exactMatch": true,
+    "hint": true
+  }
+]
