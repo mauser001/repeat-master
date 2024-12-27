@@ -1,22 +1,28 @@
-<div class="overview">
-    <h3>Repeat Master</h3>
-
-    <ng-content *ngIf="results() as results">
-        <ng-content *ngIf="completedCount() as completedCount">
-            <mat-card [routerLink]="'/quiz/'+quiz.id" class="card" appearance="outlined"
-                *ngFor="let quiz of quizes(); trackBy:trackBy">
-                <mat-card-title>{{quiz.title}} ({{results[quiz.id].length || 0 }}/{{quiz.questionIds?.length ?? 0}}
-                    questions)</mat-card-title>
-                <mat-card-content>
-                    <div class="description">
-                        {{quiz.description}}
-                        <mat-icon class="arrow" aria-hidden="false" aria-label="goto quiz"
-                            fontIcon="keyboard_double_arrow_right">
-                        </mat-icon>
-                    </div>
-                    <div>Completed count: {{completedCount[quiz.id]}}</div>
-                </mat-card-content>
-            </mat-card>
+<ng-container *transloco="let t">
+    <div class="overview">
+        <rep-header />
+        <ng-content *ngIf="results() as results">
+            <ng-content *ngIf="completedCount() as completedCount">
+                <mat-card [routerLink]="'/quiz/'+quiz.id" class="card" appearance="outlined"
+                    *ngFor="let quiz of quizes(); trackBy:trackBy">
+                    <mat-card-title>{{t("category."+quiz.category+".title")}}
+                        {{quiz.subTitle}}
+                        ({{results[quiz.id].length || 0
+                        }}/{{quiz.questionIds?.length ?? 0}}
+                        questions)</mat-card-title>
+                    <mat-card-content>
+                        <div class="description">
+                            <div>Subject: {{t("subject."+quiz.subject+".title")}}</div>
+                            <div>Year: {{quiz.year}} / Unit: {{quiz.unit}}</div>
+                            {{t("category."+quiz.category+".description")}}
+                            <mat-icon class="arrow" aria-hidden="false" aria-label="goto quiz"
+                                fontIcon="keyboard_double_arrow_right">
+                            </mat-icon>
+                        </div>
+                        <div>Completed count: {{completedCount[quiz.id]}}</div>
+                    </mat-card-content>
+                </mat-card>
+            </ng-content>
         </ng-content>
-    </ng-content>
-</div>
+    </div>
+</ng-container>

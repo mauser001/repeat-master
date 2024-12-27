@@ -1,10 +1,12 @@
 export type Quiz = {
     id: number;
     active: boolean;
-    title: string;
+    subject: string;
     category: string;
-    description?: string;
+    subTitle?: string;
     questionIds?: number[];
     questionIdsMap?: string;
     files: string;
+    year: string;
+    unit: string;
 }

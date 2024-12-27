@@ -1,0 +1,24 @@
+<ng-container *transloco="let t">
+    <div class="header">
+        <mat-icon class="filterIcon" (click)="toggleFilter()" fontIcon="filter_alt" aria-hidden="false"
+            aria-label="toggle filter" [class.active]="hasActiveFilter()"></mat-icon>
+        <div class="title">Repeat Master</div>
+        <div class="filter" *ngIf="isFilterShown()">
+            <ng-content *ngIf="selectedFilter() as selectedFilter">
+                <ng-content *ngIf="availableFilter() as availableFilter">
+                    <ng-content *ngFor="let key of filterKeys">
+                        <mat-form-field *ngIf="availableFilter[key].length > 1" class="filter-element">
+                            <mat-label>{{t(key+".title")}}</mat-label>
+                            <mat-select [value]="selectedFilter[key]" multiple
+                                (selectionChange)="setFilter(key, $event.value)">
+                                @for (filter of availableFilter[key]; track filter) {
+                                <mat-option [value]="filter">{{t(key+"."+filter+".title")||filter}}</mat-option>
+                                }
+                            </mat-select>
+                        </mat-form-field>
+                    </ng-content>
+                </ng-content>
+            </ng-content>
+        </div>
+    </div>
+</ng-container>

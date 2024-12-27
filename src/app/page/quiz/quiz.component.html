@@ -1,80 +1,83 @@
-<div class="quiz" *ngIf="data() as data; else noData">
+<ng-container *transloco="let t">
+    <div class="quiz" *ngIf="data() as data; else noData">
 
-    <div *ngIf="data.quiz as quiz; else noQuiz;">
-        <h3>Quiz {{quiz.title}}</h3>
-        <mat-horizontal-stepper #stepper (animationDone)="animationDone()" (selectedIndexChange)="indexChanged($event)">
-            <ng-template matStepHeader>X out</ng-template>
-            <template mat-stepper-icon>x</template>
-            <ng-template matStepperIcon>
-                <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-            </ng-template>
-            <ng-content *ngFor="let question of openQuestions(); trackBy:trackBy; let i = index">
-                <mat-step>
-                    <ng-template matStepContent>
-                        <div class="header">{{i}} / {{openQuestions().length}}</div>
-                        <mat-card class="card" appearance="outlined">
-                            <mat-card-title>{{ question.description }}</mat-card-title>
-                            <mat-card-content class="question" [ngSwitch]="question.type">
-                                <rep-question-text *ngSwitchCase="'text'" [question]="question"
-                                    (onAnswers)="updateAnswer($event)"
-                                    (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-question-text>
-                                <rep-placholder *ngSwitchCase="'placeholder'" [question]="question"
-                                    (onAnswers)="updateAnswer($event)"
-                                    (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-placholder>
-                                <div *ngSwitchDefault>
-                                    No question edtior defined for type: {{question.type}}
-                                </div>
-                                <div class="hint" *ngIf="question.hints">
-                                    Hint: {{question.hints}}
-                                </div>
-                            </mat-card-content>
-                        </mat-card>
-                    </ng-template>
-                </mat-step>
-            </ng-content>
+        <div *ngIf="data.quiz as quiz; else noQuiz;">
+            <h3>Quiz {{t("category."+quiz.category+".title")}}</h3>
+            <mat-horizontal-stepper #stepper (animationDone)="animationDone()"
+                (selectedIndexChange)="indexChanged($event)">
+                <ng-template matStepHeader>X out</ng-template>
+                <template mat-stepper-icon>x</template>
+                <ng-template matStepperIcon>
+                    <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
+                </ng-template>
+                <ng-content *ngFor="let question of openQuestions(); trackBy:trackBy; let i = index">
+                    <mat-step>
+                        <ng-template matStepContent>
+                            <div class="header">{{i}} / {{openQuestions().length}}</div>
+                            <mat-card class="card" appearance="outlined">
+                                <mat-card-title>{{ question.description }}</mat-card-title>
+                                <mat-card-content class="question" [ngSwitch]="question.type">
+                                    <rep-question-text *ngSwitchCase="'text'" [question]="question"
+                                        (onAnswers)="updateAnswer($event)"
+                                        (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-question-text>
+                                    <rep-placholder *ngSwitchCase="'placeholder'" [question]="question"
+                                        (onAnswers)="updateAnswer($event)"
+                                        (next)="selectedIndex() >= openQuestions().length - 1 ? finish() : stepper.next()"></rep-placholder>
+                                    <div *ngSwitchDefault>
+                                        No question edtior defined for type: {{question.type}}
+                                    </div>
+                                    <div class="hint" *ngIf="question.hints">
+                                        Hint: {{question.hints}}
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </ng-template>
+                    </mat-step>
+                </ng-content>
 
-            <ng-template #actionButtonsContent>
-                <div class="row">
-                    <button class="button" mat-fab extended mat-button matStepperPrevious
-                        [disabled]="selectedIndex() === 0">
-                        <mat-icon class="icon" fontIcon="chevron_left" aria-label="back"></mat-icon>
-                        Back
-                    </button>
-                    <button class="button" mat-fab extended mat-button (click)="finish()"
-                        *ngIf="selectedIndex() >= openQuestions().length - 1">
-                        <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-                        Next
-                    </button>
-                    <button class="button" mat-fab extended mat-button matStepperNext
-                        *ngIf="selectedIndex() < openQuestions().length - 1">
-                        <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-                        Next
-                    </button>
-                </div>
-            </ng-template>
+                <ng-template #actionButtonsContent>
+                    <div class="row">
+                        <button class="button" mat-fab extended mat-button matStepperPrevious
+                            [disabled]="selectedIndex() === 0">
+                            <mat-icon class="icon" fontIcon="chevron_left" aria-label="back"></mat-icon>
+                            Back
+                        </button>
+                        <button class="button" mat-fab extended mat-button (click)="finish()"
+                            *ngIf="selectedIndex() >= openQuestions().length - 1">
+                            <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
+                            Next
+                        </button>
+                        <button class="button" mat-fab extended mat-button matStepperNext
+                            *ngIf="selectedIndex() < openQuestions().length - 1">
+                            <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
+                            Next
+                        </button>
+                    </div>
+                </ng-template>
 
-        </mat-horizontal-stepper>
-    </div>
-
-    <div class="action-buttons">
-        <ng-template [cdkPortalOutlet]="actionButtonsPortal"></ng-template>
-
-        <div class="row">
-            <button class="button" mat-fab extended aria-label="Finish Quiz" (click)="finish()">
-                <mat-icon class="icon" fontIcon="exit_to_app" aria-label="finish quiz"></mat-icon>
-                Finish
-            </button>
-            <button class="button" mat-fab extended aria-label="Abort Quiz" (click)="abort()">
-                <mat-icon class="icon" fontIcon="block" aria-label="abort quiz"></mat-icon>
-                Abort
-            </button>
+            </mat-horizontal-stepper>
         </div>
 
+        <div class="action-buttons">
+            <ng-template [cdkPortalOutlet]="actionButtonsPortal"></ng-template>
+
+            <div class="row">
+                <button class="button" mat-fab extended aria-label="Finish Quiz" (click)="finish()">
+                    <mat-icon class="icon" fontIcon="exit_to_app" aria-label="finish quiz"></mat-icon>
+                    Finish
+                </button>
+                <button class="button" mat-fab extended aria-label="Abort Quiz" (click)="abort()">
+                    <mat-icon class="icon" fontIcon="block" aria-label="abort quiz"></mat-icon>
+                    Abort
+                </button>
+            </div>
+
+        </div>
     </div>
-</div>
-<ng-template #noData>
-    <h1>Quiz is loading</h1>
-</ng-template>
-<ng-template #noQuiz>
-    <h1>Quiz not found</h1>
-</ng-template>
+    <ng-template #noData>
+        <h1>Quiz is loading</h1>
+    </ng-template>
+    <ng-template #noQuiz>
+        <h1>Quiz not found</h1>
+    </ng-template>
+</ng-container>

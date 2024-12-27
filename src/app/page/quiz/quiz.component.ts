@@ -20,6 +20,7 @@ import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { CdkPortalOutlet, TemplatePortal } from '@angular/cdk/portal';
 import { PlacholderComponent } from '../../component/question/placholder/placholder.component';
 import { randomizeList, randomizeText } from '../../utils/randomize';
+import { TranslocoModule } from '@jsverse/transloco';
 
 @Component({
   selector: 'rep-quiz',
@@ -38,7 +39,8 @@ import { randomizeList, randomizeText } from '../../utils/randomize';
     RouterModule,
     NgSwitchDefault,
     TextComponent,
-    PlacholderComponent
+    PlacholderComponent,
+    TranslocoModule
   ],
   providers: [
     {

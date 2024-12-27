@@ -1,0 +1,31 @@
+{
+  "category": {
+    "title": "Category",
+    "placeholder": {
+      "description": "Find the correct texts",
+      "title": "Placeholder"
+    },
+    "vocabulary": {
+      "description": "Find the correct translation",
+      "title": "Vocabulary"
+    }
+  },
+  "subject": {
+    "title": "Subject",
+    "english": {
+      "title": "English"
+    }
+  },
+  "year": {
+    "title": "Year",
+    "general": {
+      "title": "General"
+    }
+  },
+  "unit": {
+    "title": "Unit",
+    "general": {
+      "title": "General"
+    }
+  }
+}
