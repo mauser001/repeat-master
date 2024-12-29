@@ -1,27 +1,22 @@
 # RepeatMaster
 
+License: MIT
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
-## Development server
+## Website
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The RepeatMaster is hosted [here](https://repeatmaster.maushammer.at/) and can be used for free. 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## What it's about
 
-## Build
+This is a simple app to learn different subjects by repeating them until you have them correct. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+As I mainly created it for my son, I only added the units he currently needs to learn. 
 
-## Running unit tests
+If you have want to add more units feel free to create a Pull/Feature Request or reach out to me via [X](https://x.com/AlexMaushammer).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Disclaimer
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The app only stores data locally in your browser so no user data/progress is stored on/sent to the server. 

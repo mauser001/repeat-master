@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding);
+    padding: var(--padding-small);
+
+    .row {
+        display: flex;
+        gap: var(--padding);
+        justify-content: space-between;
+        width: 100%;
+
+        .links {
+            display: flex;
+            gap: var(--padding);
+
+            svg {
+                height: 24px;
+                width: auto;
+            }
+        }
+    }
+}

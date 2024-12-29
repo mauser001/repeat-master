@@ -2,7 +2,7 @@
     <div class="header">
         <mat-icon class="filterIcon" (click)="toggleFilter()" fontIcon="filter_alt" aria-hidden="false"
             aria-label="toggle filter" [class.active]="hasActiveFilter()"></mat-icon>
-        <div class="title">Repeat Master</div>
+        <div class="title">{{t("overview.title")}}</div>
         <div class="filter" *ngIf="isFilterShown()">
             <ng-content *ngIf="selectedFilter() as selectedFilter">
                 <ng-content *ngIf="availableFilter() as availableFilter">

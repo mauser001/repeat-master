@@ -1,44 +1,46 @@
-<div *ngIf="result$() as result; else noQuiz" class="result">
-    <div class="container">
-        <h3 class="header {{result.state}}" [ngSwitch]="result.state">
-            <ng-content *ngSwitchCase="'complete'">
-                You answered all questions of correctly and completed this quest!
-            </ng-content>
-            <ng-content *ngSwitchCase="'partial'">
-                You answered {{ result.completed }} of {{ result.total }} questions correctly, try again!
-            </ng-content>
-            <ng-content *ngSwitchCase="'wrong'">
-                You did not answer any question correctly, try harder!
-            </ng-content>
-        </h3>
-        <mat-card class="card" appearance="outlined" *ngFor="let question of result.questions; trackBy:trackBy"
-            [class.wrong]="!result.completedIds.includes(question.id)"
-            [class.complete]="result.completedIds.includes(question.id)">
-            <mat-card-title>
-                <mat-icon aria-hidden="false" *ngIf="result.completedIds.includes(question.id); else wrongIcon"
-                    class="icon complete" fontIcon="star"></mat-icon>
-                {{question.description}}: {{ question.text }}
-            </mat-card-title>
-            <mat-card-content>
-                Correct answer(s): {{question.correctAnswers.split('|').join(', ')}}
-            </mat-card-content>
-        </mat-card>
+<ng-container *transloco="let t">
+    <div *ngIf="result$() as result; else noQuiz" class="result">
+        <div class="container">
+            <h3 class="header {{result.state}}" [ngSwitch]="result.state">
+                <ng-content *ngSwitchCase="'complete'">
+                    {{t('result.complete')}}
+                </ng-content>
+                <ng-content *ngSwitchCase="'partial'">
+                    {{t('result.partial', {completed: result.completed, total: result.total})}}
+                </ng-content>
+                <ng-content *ngSwitchCase="'wrong'">
+                    {{t('result.wrong')}}
+                </ng-content>
+            </h3>
+            <mat-card class="card" appearance="outlined" *ngFor="let question of result.questions; trackBy:trackBy"
+                [class.wrong]="!result.completedIds.includes(question.id)"
+                [class.complete]="result.completedIds.includes(question.id)">
+                <mat-card-title>
+                    <mat-icon aria-hidden="false" *ngIf="result.completedIds.includes(question.id); else wrongIcon"
+                        class="icon complete" fontIcon="star"></mat-icon>
+                    {{question.description}}: {{ question.text }}
+                </mat-card-title>
+                <mat-card-content>
+                    {{t('result.correctAnswers')}}: {{question.correctAnswers.split('|').join(', ')}}
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="action-buttons">
+            <button class="button" mat-fab extended aria-label="Retry Quiz" (click)="retry()">
+                <mat-icon class="icon" fontIcon="autorenew" aria-label="retry quiz"></mat-icon>
+                {{t('common.retry')}}
+            </button>
+            <button class="button" mat-fab extended aria-label="Home" (click)="home()">
+                <mat-icon class="icon" fontIcon="home" aria-label="home"></mat-icon>
+                {{t('common.home')}}
+            </button>
+        </div>
     </div>
-    <div class="action-buttons">
-        <button class="button" mat-fab extended aria-label="Retry Quiz" (click)="retry()">
-            <mat-icon class="icon" fontIcon="autorenew" aria-label="retry quiz"></mat-icon>
-            Retry
-        </button>
-        <button class="button" mat-fab extended aria-label="Home" (click)="home()">
-            <mat-icon class="icon" fontIcon="home" aria-label="home"></mat-icon>
-            Home
-        </button>
-    </div>
-</div>
 
-<ng-template #noQuiz>
-    <h1>Quiz not found</h1>
-</ng-template>
-<ng-template #wrongIcon>
-    <mat-icon aria-hidden="false" class="icon wrong" fontIcon="do_not_disturb_on"></mat-icon>
-</ng-template>
+    <ng-template #noQuiz>
+        <h1> {{t('quiz.notFound')}}</h1>
+    </ng-template>
+    <ng-template #wrongIcon>
+        <mat-icon aria-hidden="false" class="icon wrong" fontIcon="do_not_disturb_on"></mat-icon>
+    </ng-template>
+</ng-container>

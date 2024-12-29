@@ -9,6 +9,7 @@ import { Question } from '../../models/question.type';
 import { MatCardModule } from '@angular/material/card';
 import { MatIcon } from '@angular/material/icon';
 import { MatFabButton } from '@angular/material/button';
+import { TranslocoModule } from '@jsverse/transloco';
 
 type CompleteState = 'wrong' | 'partial' | 'complete'
 
@@ -23,6 +24,7 @@ type CompleteState = 'wrong' | 'partial' | 'complete'
     RouterModule,
     NgSwitch,
     NgSwitchCase,
+    TranslocoModule
   ],
   templateUrl: './result.component.html',
   styleUrl: './result.component.scss',

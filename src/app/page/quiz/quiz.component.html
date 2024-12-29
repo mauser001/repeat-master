@@ -2,14 +2,9 @@
     <div class="quiz" *ngIf="data() as data; else noData">
 
         <div *ngIf="data.quiz as quiz; else noQuiz;">
-            <h3>Quiz {{t("category."+quiz.category+".title")}}</h3>
+            <h3>{{t("quiz.title")}}: {{t("category."+quiz.category+".title")}}</h3>
             <mat-horizontal-stepper #stepper (animationDone)="animationDone()"
                 (selectedIndexChange)="indexChanged($event)">
-                <ng-template matStepHeader>X out</ng-template>
-                <template mat-stepper-icon>x</template>
-                <ng-template matStepperIcon>
-                    <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-                </ng-template>
                 <ng-content *ngFor="let question of openQuestions(); trackBy:trackBy; let i = index">
                     <mat-step>
                         <ng-template matStepContent>
@@ -27,7 +22,7 @@
                                         No question edtior defined for type: {{question.type}}
                                     </div>
                                     <div class="hint" *ngIf="question.hints">
-                                        Hint: {{question.hints}}
+                                        {{t("quiz.hint")}}: {{question.hints}}
                                     </div>
                                 </mat-card-content>
                             </mat-card>
@@ -40,17 +35,17 @@
                         <button class="button" mat-fab extended mat-button matStepperPrevious
                             [disabled]="selectedIndex() === 0">
                             <mat-icon class="icon" fontIcon="chevron_left" aria-label="back"></mat-icon>
-                            Back
+                            {{t("common.back")}}
                         </button>
                         <button class="button" mat-fab extended mat-button (click)="finish()"
                             *ngIf="selectedIndex() >= openQuestions().length - 1">
                             <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-                            Next
+                            {{t("common.next")}}
                         </button>
                         <button class="button" mat-fab extended mat-button matStepperNext
                             *ngIf="selectedIndex() < openQuestions().length - 1">
                             <mat-icon class="icon" fontIcon="chevron_right" aria-label="next"></mat-icon>
-                            Next
+                            {{t("common.next")}}
                         </button>
                     </div>
                 </ng-template>
@@ -64,20 +59,20 @@
             <div class="row">
                 <button class="button" mat-fab extended aria-label="Finish Quiz" (click)="finish()">
                     <mat-icon class="icon" fontIcon="exit_to_app" aria-label="finish quiz"></mat-icon>
-                    Finish
+                    {{t("common.finish")}}
                 </button>
                 <button class="button" mat-fab extended aria-label="Abort Quiz" (click)="abort()">
                     <mat-icon class="icon" fontIcon="block" aria-label="abort quiz"></mat-icon>
-                    Abort
+                    {{t("common.abort")}}
                 </button>
             </div>
 
         </div>
     </div>
     <ng-template #noData>
-        <h1>Quiz is loading</h1>
+        <h1>{{t("quiz.loading")}}</h1>
     </ng-template>
     <ng-template #noQuiz>
-        <h1>Quiz not found</h1>
+        <h1>{{t("quiz.notFound")}}</h1>
     </ng-template>
 </ng-container>

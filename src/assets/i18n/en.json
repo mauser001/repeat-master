@@ -1,4 +1,33 @@
 {
+  "common": {
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "abort": "Abort",
+    "retry": "Retry",
+    "home": "Home"
+  },
+  "disclaimer": {
+    "label": "Disclaimer",
+    "text": "This website was built to help my son study his english vocabulary and other subjects. It only stores data locally and does not sent any personal data to the server. If you have any feedback feel free to contact me on X or github."
+  },
+  "quiz": {
+    "title": "Quiz",
+    "hint": "Hint",
+    "notFound": "Quiz not found",
+    "loading": "Quiz is loading"
+  },
+  "result": {
+    "partial": "You answered {{completed}} of {{total}} questions correctly, try again!",
+    "complete": " You answered all questions of correctly and completed this quest!",
+    "wrong": "You did not answer any question correctly, try harder!",
+    "correctAnswers": "Correct answer(s)"
+  },
+  "overview": {
+    "title": "Repeat Master",
+    "questions": "questions",
+    "completedCount": "Completed count"
+  },
   "category": {
     "title": "Category",
     "placeholder": {

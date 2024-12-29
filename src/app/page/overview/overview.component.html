@@ -9,17 +9,17 @@
                         {{quiz.subTitle}}
                         ({{results[quiz.id].length || 0
                         }}/{{quiz.questionIds?.length ?? 0}}
-                        questions)</mat-card-title>
+                        {{t("overview.questions")}})</mat-card-title>
                     <mat-card-content>
                         <div class="description">
-                            <div>Subject: {{t("subject."+quiz.subject+".title")}}</div>
-                            <div>Year: {{quiz.year}} / Unit: {{quiz.unit}}</div>
+                            <div>{{t("subject.title")}}: {{t("subject."+quiz.subject+".title")}}</div>
+                            <div>{{t("year.title")}}: {{quiz.year}} / {{t("unit.title")}}: {{quiz.unit}}</div>
                             {{t("category."+quiz.category+".description")}}
                             <mat-icon class="arrow" aria-hidden="false" aria-label="goto quiz"
                                 fontIcon="keyboard_double_arrow_right">
                             </mat-icon>
                         </div>
-                        <div>Completed count: {{completedCount[quiz.id]}}</div>
+                        <div>{{t("overview.completedCount")}}: {{completedCount[quiz.id]}}</div>
                     </mat-card-content>
                 </mat-card>
             </ng-content>
