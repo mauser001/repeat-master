@@ -1,0 +1,353 @@
+[
+  {
+    "id": 36000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Angst haben vor",
+    "correctAnswers": "afraid of",
+    "exactMatch": true
+  },
+  {
+    "id": 36001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Wecker",
+    "correctAnswers": "alarm clock",
+    "exactMatch": true
+  },
+  {
+    "id": 36002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "neben",
+    "correctAnswers": "beside",
+    "exactMatch": true
+  },
+  {
+    "id": 36003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Lagerfeuer",
+    "correctAnswers": "campfire",
+    "exactMatch": true
+  },
+  {
+    "id": 36004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "das Böse",
+    "correctAnswers": "evil",
+    "exactMatch": true
+  },
+  {
+    "id": 36005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "scherzen",
+    "correctAnswers": "joking",
+    "exactMatch": true
+  },
+  {
+    "id": 36006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Spiegel",
+    "correctAnswers": "mirror",
+    "exactMatch": true
+  },
+  {
+    "id": 36007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Schlafsack",
+    "correctAnswers": "sleeping bag",
+    "exactMatch": true
+  },
+  {
+    "id": 36008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Geist",
+    "correctAnswers": "spirit",
+    "exactMatch": true
+  },
+  {
+    "id": 36009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "jemanden festhalten",
+    "correctAnswers": "hold somebody tightly",
+    "exactMatch": true
+  },
+  {
+    "id": 36010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Elster",
+    "correctAnswers": "magpie",
+    "exactMatch": true
+  },
+  {
+    "id": 36011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Aberglaube",
+    "correctAnswers": "superstition",
+    "exactMatch": true
+  },
+  {
+    "id": 36012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Wohnblock",
+    "correctAnswers": "block of flats",
+    "exactMatch": true
+  },
+  {
+    "id": 36013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Linse",
+    "correctAnswers": "lentil",
+    "exactMatch": true
+  },
+  {
+    "id": 36014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Äußerung, Aussage",
+    "correctAnswers": "statement",
+    "exactMatch": true
+  },
+  {
+    "id": 36015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Sonst noch was?",
+    "correctAnswers": "Anything else?",
+    "exactMatch": true
+  },
+  {
+    "id": 36016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Riss, Spalt, hier: Fuge",
+    "correctAnswers": "crack",
+    "exactMatch": true
+  },
+  {
+    "id": 36017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Kuckuck",
+    "correctAnswers": "cuckoo",
+    "exactMatch": true
+  },
+  {
+    "id": 36018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Leiter",
+    "correctAnswers": "ladder",
+    "exactMatch": true
+  },
+  {
+    "id": 36019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Halskette",
+    "correctAnswers": "necklace",
+    "exactMatch": true
+  },
+  {
+    "id": 36020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Gehsteig",
+    "correctAnswers": "pavement",
+    "exactMatch": true
+  },
+  {
+    "id": 36021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Reihe",
+    "correctAnswers": "row",
+    "exactMatch": true
+  },
+  {
+    "id": 36022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "schütteln",
+    "correctAnswers": "shake",
+    "exactMatch": true
+  },
+  {
+    "id": 36023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "abergläubisch",
+    "correctAnswers": "superstitious",
+    "exactMatch": true
+  },
+  {
+    "id": 36024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(sich) umdrehen",
+    "correctAnswers": "turn round",
+    "exactMatch": true
+  },
+  {
+    "id": 36025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(ab)spülen, abwaschen",
+    "correctAnswers": "do the dishes",
+    "exactMatch": true
+  },
+  {
+    "id": 36026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich erkälten",
+    "correctAnswers": "catch a cold",
+    "exactMatch": true
+  },
+  {
+    "id": 36027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Zahnbürste",
+    "correctAnswers": "toothbrush",
+    "exactMatch": true
+  },
+  {
+    "id": 36028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ein Wunsch wird wahr",
+    "correctAnswers": "a whish comes true",
+    "exactMatch": true
+  },
+  {
+    "id": 36029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "(Sich) etwas wünschen",
+    "correctAnswers": "make a wish",
+    "exactMatch": true
+  },
+  {
+    "id": 36030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Geld wünschen",
+    "correctAnswers": "Wish for money",
+    "exactMatch": true
+  },
+  {
+    "id": 36031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Etwas Geld aufheben",
+    "correctAnswers": "Pick up some money",
+    "exactMatch": true
+  },
+  {
+    "id": 36032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Glück haben",
+    "correctAnswers": "Have good luck",
+    "exactMatch": true
+  },
+  {
+    "id": 36033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Pech haben",
+    "correctAnswers": "Have bad luck",
+    "exactMatch": true
+  },
+  {
+    "id": 36034,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Glück bringen",
+    "correctAnswers": "Bring good luck",
+    "exactMatch": true
+  },
+  {
+    "id": 36035,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Pech bringen",
+    "correctAnswers": "Bring bad luck",
+    "exactMatch": true
+  },
+  {
+    "id": 36036,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Gute Nachrichten bringen",
+    "correctAnswers": "Bring good news",
+    "exactMatch": true
+  },
+  {
+    "id": 36037,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Schlechte Nachrichten bringen",
+    "correctAnswers": "Bring bad news",
+    "exactMatch": true
+  },
+  {
+    "id": 36038,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Etwas Geld finden",
+    "correctAnswers": "Find some money",
+    "exactMatch": true
+  }
+]

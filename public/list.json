@@ -109,6 +109,24 @@
       "files": "placeholder_3_5.json",
       "year": "3",
       "unit": "5"
+    },
+    {
+      "id": 36000,
+      "category": "vocabulary",
+      "subject": "english",
+      "questionIdsMap": "36000-36038",
+      "files": "vocabulary_3_6.json",
+      "year": "3",
+      "unit": "6"
+    },
+    {
+      "id": 36001,
+      "category": "placeholder",
+      "subject": "english",
+      "questionIdsMap": "36200-36227",
+      "files": "placeholder_3_6.json",
+      "year": "3",
+      "unit": "6"
     }
   ]
 }
