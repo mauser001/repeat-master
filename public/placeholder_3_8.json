@@ -1,0 +1,272 @@
+[
+  {
+    "id": 38200,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "One of the world's most important _ is probably the wheel.",
+    "correctAnswers": "inventions",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38201,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "One day, I want to be a famous _, like Steve Jobs.",
+    "correctAnswers": "inventor",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38202,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They're going to _ the experiment live tomorrow.",
+    "correctAnswers": "broadcast",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38203,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "If he needed some, I'd lend my friend some money and buy myself a _ bike.",
+    "correctAnswers": "cheaper",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38204,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The _ only laughed at his experiment.",
+    "correctAnswers": "crowd",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38205,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They've _ a new source of water in the forest.",
+    "correctAnswers": "detected",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38206,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He _ a new communication system.",
+    "correctAnswers": "developed",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38207,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The scientists _ a bag of gold in the cave.",
+    "correctAnswers": "discovered",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38208,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Your old dishwasher uses a lot of _. You should get a new one.",
+    "correctAnswers": "energy",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38209,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "The best way to _ your French is to live in France.",
+    "correctAnswers": "improve",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38210,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Marie Curie's findings had a great _ on today's medicine.",
+    "correctAnswers": "influence",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38211,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "He's still trying to _ a flying car.",
+    "correctAnswers": "invent",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38212,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Many companies are _ in new technologies.",
+    "correctAnswers": "investing",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38213,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "There's no _ running through this cable.",
+    "correctAnswers": "power",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38214,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "This company is _ for the oil spill.",
+    "correctAnswers": "responsible",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38215,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "Sparks were _ out of the cable.",
+    "correctAnswers": "shooting",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38216,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "It took us some time, but we finally _ _ the solution.",
+    "correctAnswers": "worked|out",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38217,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "When I was a little kid, I loved _.",
+    "correctAnswers": "popsicles",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38218,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "They have produced some _ gadgets.",
+    "correctAnswers": "remarkable",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38219,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I have broken my leg and now need _ to help me walk.",
+    "correctAnswers": "crutches",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38220,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "You can get into the building by using the stairs or the _.",
+    "correctAnswers": "ramp",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38221,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "My granny is quite old so she uses a _.",
+    "correctAnswers": "walker",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38222,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "After the accident he had to use a _.",
+    "correctAnswers": "wheelchair",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38223,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "She won an _ at school for her great work.",
+    "correctAnswers": "award",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38224,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "My mum's car _ a lot.",
+    "correctAnswers": "cost",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38225,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "It's not real, it's _.",
+    "correctAnswers": "fake",
+    "exactMatch": true,
+    "hint": true
+  },
+  {
+    "id": 38226,
+    "type": "placeholder",
+    "category": "vocabulary",
+    "description": "Fill out the placeholder",
+    "text": "I don't have to do any _.",
+    "correctAnswers": "housework",
+    "exactMatch": true,
+    "hint": true
+  }
+]

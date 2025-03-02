@@ -1,5 +1,5 @@
 {
-  "version": "241215",
+  "version": "250302",
   "quizes": [
     {
       "id": 99000,
@@ -127,6 +127,42 @@
       "files": "placeholder_3_6.json",
       "year": "3",
       "unit": "6"
+    },
+    {
+      "id": 37000,
+      "category": "vocabulary",
+      "subject": "english",
+      "questionIdsMap": "37000-37042",
+      "files": "vocabulary_3_7.json",
+      "year": "3",
+      "unit": "7"
+    },
+    {
+      "id": 37001,
+      "category": "placeholder",
+      "subject": "english",
+      "questionIdsMap": "37200-37232",
+      "files": "placeholder_3_7.json",
+      "year": "3",
+      "unit": "7"
+    },
+    {
+      "id": 38000,
+      "category": "vocabulary",
+      "subject": "english",
+      "questionIdsMap": "38000-38033",
+      "files": "vocabulary_3_8.json",
+      "year": "3",
+      "unit": "8"
+    },
+    {
+      "id": 38001,
+      "category": "placeholder",
+      "subject": "english",
+      "questionIdsMap": "38200-38226",
+      "files": "placeholder_3_8.json",
+      "year": "3",
+      "unit": "8"
     }
   ]
 }

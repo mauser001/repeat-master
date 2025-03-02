@@ -1,0 +1,389 @@
+[
+  {
+    "id": 37000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "seit [Zeitspanne]",
+    "correctAnswers": "for",
+    "exactMatch": true
+  },
+  {
+    "id": 37001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "seit [Zeitpunkt]",
+    "correctAnswers": "since",
+    "exactMatch": true
+  },
+  {
+    "id": 37002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "auslachen",
+    "correctAnswers": "laugh at",
+    "exactMatch": true
+  },
+  {
+    "id": 37003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich über jemanden lustig machen",
+    "correctAnswers": "make fun of somebody",
+    "exactMatch": true
+  },
+  {
+    "id": 37004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich entscheiden",
+    "correctAnswers": "make up one's mind",
+    "exactMatch": true
+  },
+  {
+    "id": 37005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "umziehen, übersiedeln",
+    "correctAnswers": "move",
+    "exactMatch": true
+  },
+  {
+    "id": 37006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Stofftier, Kuscheltier",
+    "correctAnswers": "soft toy",
+    "exactMatch": true
+  },
+  {
+    "id": 37007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Zeug",
+    "correctAnswers": "stuff",
+    "exactMatch": true
+  },
+  {
+    "id": 37008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "besitzen",
+    "correctAnswers": "own",
+    "exactMatch": true
+  },
+  {
+    "id": 37009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Kindheit",
+    "correctAnswers": "childhood (no pl)",
+    "exactMatch": true
+  },
+  {
+    "id": 37010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ohrring",
+    "correctAnswers": "earring",
+    "exactMatch": true
+  },
+  {
+    "id": 37011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "kindisch",
+    "correctAnswers": "childish",
+    "exactMatch": true
+  },
+  {
+    "id": 37012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mitgehen",
+    "correctAnswers": "go along",
+    "exactMatch": true
+  },
+  {
+    "id": 37013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Haarschnitt, Frisur",
+    "correctAnswers": "haircut",
+    "exactMatch": true
+  },
+  {
+    "id": 37014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ehrlich",
+    "correctAnswers": "honest",
+    "exactMatch": true
+  },
+  {
+    "id": 37015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "vorstellen",
+    "correctAnswers": "introduce",
+    "exactMatch": true
+  },
+  {
+    "id": 37016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "in der Zwischenzeit",
+    "correctAnswers": "in the meantime",
+    "exactMatch": true
+  },
+  {
+    "id": 37017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Fragebogen",
+    "correctAnswers": "questionnaire",
+    "exactMatch": true
+  },
+  {
+    "id": 37018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "schmollen; beleidigt sein",
+    "correctAnswers": "sulk",
+    "exactMatch": true
+  },
+  {
+    "id": 37019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "verständnisvoll",
+    "correctAnswers": "understanding",
+    "exactMatch": true
+  },
+  {
+    "id": 37020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich in etwas einmischen",
+    "correctAnswers": "interfere with something",
+    "exactMatch": true
+  },
+  {
+    "id": 37021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "seine Probleme lösen",
+    "correctAnswers": "solve one's problems",
+    "exactMatch": true
+  },
+  {
+    "id": 37022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Preis, Auszeichnung",
+    "correctAnswers": "award",
+    "exactMatch": true
+  },
+  {
+    "id": 37023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "heißgeliebt",
+    "correctAnswers": "beloved",
+    "exactMatch": true
+  },
+  {
+    "id": 37024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "riesig",
+    "correctAnswers": "huge",
+    "exactMatch": true
+  },
+  {
+    "id": 37025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "nirgendwo",
+    "correctAnswers": "nowhere",
+    "exactMatch": true
+  },
+  {
+    "id": 37026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Drehbuch",
+    "correctAnswers": "script",
+    "exactMatch": true
+  },
+  {
+    "id": 37027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "sich schwer tun",
+    "correctAnswers": "struggle",
+    "exactMatch": true
+  },
+  {
+    "id": 37028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Erfolg",
+    "correctAnswers": "success",
+    "exactMatch": true
+  },
+  {
+    "id": 37029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ein Geheimnis für sich behalten",
+    "correctAnswers": "keep a secret",
+    "exactMatch": true
+  },
+  {
+    "id": 37030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einige, ein paar",
+    "correctAnswers": "a couple of",
+    "exactMatch": true
+  },
+  {
+    "id": 37031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ungeschickt, tollpatschig",
+    "correctAnswers": "clumsy",
+    "exactMatch": true
+  },
+  {
+    "id": 37032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Ausschlag",
+    "correctAnswers": "rash",
+    "exactMatch": true
+  },
+  {
+    "id": 37033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "jemanden anlügen",
+    "correctAnswers": "lie to someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37034,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einen Streit mit jemandem haben",
+    "correctAnswers": "have an argument with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37035,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem Schluss machen",
+    "correctAnswers": "break up with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37036,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "aus einem Raum stürmen",
+    "correctAnswers": "storm out of a room",
+    "exactMatch": true
+  },
+  {
+    "id": 37037,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem zerstreiten",
+    "correctAnswers": "fall out with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37038,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem kämpfen/streiten",
+    "correctAnswers": "have a fight with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37039,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem versöhnen",
+    "correctAnswers": "make up with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37040,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem gut auskommen",
+    "correctAnswers": "get on well with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37041,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "mit jemandem ehrlich sein",
+    "correctAnswers": "be honest with someone",
+    "exactMatch": true
+  },
+  {
+    "id": 37042,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "kümmere dich um deine eigenen Angelegenheiten",
+    "correctAnswers": "min your own business",
+    "exactMatch": true
+  }
+]

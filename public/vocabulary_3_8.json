@@ -1,0 +1,308 @@
+[
+  {
+    "id": 38000,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Erfindung",
+    "correctAnswers": "invention",
+    "exactMatch": true
+  },
+  {
+    "id": 38001,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Erfinder/in",
+    "correctAnswers": "inventor",
+    "exactMatch": true
+  },
+  {
+    "id": 38002,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "übertragen; senden",
+    "correctAnswers": "broadcast",
+    "exactMatch": true
+  },
+  {
+    "id": 38003,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "billig",
+    "correctAnswers": "cheap",
+    "exactMatch": true
+  },
+  {
+    "id": 38004,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Menschenmenge; Zuschauermenge",
+    "correctAnswers": "crowd",
+    "exactMatch": true
+  },
+  {
+    "id": 38005,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "finden",
+    "correctAnswers": "detect",
+    "exactMatch": true
+  },
+  {
+    "id": 38006,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "entwickeln",
+    "correctAnswers": "develop",
+    "exactMatch": true
+  },
+  {
+    "id": 38007,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "entdecken",
+    "correctAnswers": "discover",
+    "exactMatch": true
+  },
+  {
+    "id": 38008,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Energie; Strom",
+    "correctAnswers": "energy",
+    "exactMatch": true
+  },
+  {
+    "id": 38009,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "verbessern",
+    "correctAnswers": "improve",
+    "exactMatch": true
+  },
+  {
+    "id": 38010,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Einfluss",
+    "correctAnswers": "influence",
+    "exactMatch": true
+  },
+  {
+    "id": 38011,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "erfinden",
+    "correctAnswers": "invent",
+    "exactMatch": true
+  },
+  {
+    "id": 38012,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "investieren, Geld anlegen",
+    "correctAnswers": "invest",
+    "exactMatch": true
+  },
+  {
+    "id": 38013,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "hier: Strom",
+    "correctAnswers": "power",
+    "exactMatch": true
+  },
+  {
+    "id": 38014,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "verantwortlich",
+    "correctAnswers": "responsible",
+    "exactMatch": true
+  },
+  {
+    "id": 38015,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "schießen",
+    "correctAnswers": "shoot",
+    "exactMatch": true
+  },
+  {
+    "id": 38016,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "herausfinden, erarbeiten",
+    "correctAnswers": "work something out",
+    "exactMatch": true
+  },
+  {
+    "id": 38017,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Eis am Stiel",
+    "correctAnswers": "popsicle",
+    "exactMatch": true
+  },
+  {
+    "id": 38018,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "bemerkenswert, beachtlich",
+    "correctAnswers": "remarkable",
+    "exactMatch": true
+  },
+  {
+    "id": 38019,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Krücken",
+    "correctAnswers": "crutches",
+    "exactMatch": true
+  },
+  {
+    "id": 38020,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Rampe",
+    "correctAnswers": "ramp",
+    "exactMatch": true
+  },
+  {
+    "id": 38021,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Gehhilfe",
+    "correctAnswers": "walker",
+    "exactMatch": true
+  },
+  {
+    "id": 38022,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Rollstuhl",
+    "correctAnswers": "wheelchair",
+    "exactMatch": true
+  },
+  {
+    "id": 38023,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Preis, Auszeichnung",
+    "correctAnswers": "award",
+    "exactMatch": true
+  },
+  {
+    "id": 38024,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "kosten",
+    "correctAnswers": "cost",
+    "exactMatch": true
+  },
+  {
+    "id": 38025,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "falsch, gefälscht",
+    "correctAnswers": "fake",
+    "exactMatch": true
+  },
+  {
+    "id": 38026,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Hausarbeit",
+    "correctAnswers": "housework",
+    "exactMatch": true
+  },
+  {
+    "id": 38027,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Glühbirne",
+    "correctAnswers": "light bulb",
+    "exactMatch": true
+  },
+  {
+    "id": 38028,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "power up",
+    "correctAnswers": "einschalten",
+    "exactMatch": true
+  },
+  {
+    "id": 38029,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "entwerfen",
+    "correctAnswers": "design",
+    "exactMatch": true
+  },
+  {
+    "id": 38030,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Kraftwerk",
+    "correctAnswers": "power plant",
+    "exactMatch": true
+  },
+  {
+    "id": 38031,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "ausdenken",
+    "correctAnswers": "come up with",
+    "exactMatch": true
+  },
+  {
+    "id": 38032,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "Experiment",
+    "correctAnswers": "experiment",
+    "exactMatch": true
+  },
+  {
+    "id": 38033,
+    "type": "text",
+    "category": "vocabulary",
+    "description": "Translate",
+    "text": "einem Wetbewerb beitreten",
+    "correctAnswers": "enter a competition",
+    "exactMatch": true
+  }
+]
